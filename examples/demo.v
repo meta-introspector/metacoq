@@ -396,7 +396,16 @@ Check eq_refl : ones = ones'.
 (* MetaCoq Run (tmQuoteUniverses tt >>= tmDefinition "universes"). *)
 (* Print universes. *)
 (* Definition tyu := Eval vm_compute in universes. *)
+(*
 
+This code defines a function named `kername_of_qualid` that takes a qualid (a unique identifier for an entity in the Coq type system) as input and returns its corresponding Kerninger name, which is a string used to identify it in the Coq library.
+
+The function first uses `tmLocate1` to find the location of the qualid in the code, which may be either a constant reference (using `ConstRef`), an indirection reference (using `IndRef`), a constructor reference (using `ConstructRef`), or a variable reference (using `VarRef`). If it is a variable reference, the function fails with a message indicating that the qualid was found as a variable.
+
+If the location is a constant reference, the function simply returns the value of the constant. If it is an indirection reference or a constructor reference, the function extracts the inductive mind associated with the entity by calling `ind.(inductive_mind)`. The `ind` parameter is the induction object that corresponds to the qualid, and `inductive_mind` is an associated value that contains information about the entity.
+
+Note that this code assumes that the Coq type system and library have been set up with Kerninger names for all entities. If this is not the case, the function may not work correctly or return unexpected results.
+ *)
 
 Definition kername_of_qualid (q : qualid) : TemplateMonad kername :=
   gr <- tmLocate1 q ;;

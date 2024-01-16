@@ -32,14 +32,14 @@ Module MCMonadNotation.
   Notation "'mlet' ' pat <- c1 ;; c2" := (@bind _ _ _ _ c1 (fun x => match x with pat => c2 end))
     (at level 100, pat pattern, c1 at next level, right associativity) : monad_scope.
 
-  Notation "x <- c1 ;; c2" := (@bind _ _ _ _ c1 (fun x => c2))
-    (at level 100, c1 at next level, right associativity) : monad_scope.
+   Notation "x <-- c1 ;; c2" := (@bind _ _ _ _ c1 (fun x => c2)) 
+                                 (at level 100, c1 at next level, right associativity) : monad_scope. 
 
   Notation "' pat <- c1 ;; c2" := (@bind _ _ _ _ c1 (fun x => match x with pat => c2 end))
     (at level 100, pat pattern, c1 at next level, right associativity) : monad_scope.
 
-  Notation "e1 ;; e2" := (_ <- e1%monad ;; e2%monad)%monad
-    (at level 100, right associativity) : monad_scope.
+  Notation "e1 ;;; e2" := (_ <-- e1%monad ;; e2%monad)%monad 
+                           (at level 100, right associativity) : monad_scope. 
 End MCMonadNotation.
 
 Import MCMonadNotation.
@@ -75,8 +75,8 @@ Section MapOpt.
   Fixpoint mapopt (l : list A) : option (list B) :=
     match l with
     | nil => ret nil
-    | x :: xs => x' <- f x ;;
-                xs' <- mapopt xs ;;
+    | x :: xs => x' <-- f x ;;
+                xs' <-- mapopt xs ;;
                 ret (x' :: xs')
     end.
 End MapOpt.
@@ -88,8 +88,8 @@ Section MonadOperations.
     : T (list B)
     := match l with
        | nil => ret nil
-       | x :: l => x' <- f x ;;
-                  l' <- monad_map l ;;
+       | x :: l => x' <-- f x ;;
+                  l' <-- monad_map l ;;
                   ret (x' :: l')
        end.
 
@@ -97,7 +97,7 @@ Section MonadOperations.
     : T (option B)
     := match l with
        | None => ret None
-       | Some x => x' <- f x ;;
+       | Some x => x' <-- f x ;;
                    ret (Some x')
        end.
 
@@ -105,14 +105,14 @@ Section MonadOperations.
   Fixpoint monad_fold_left (l : list B) (x : A) : T A
     := match l with
        | nil => ret x
-       | y :: l => x' <- g x y ;;
+       | y :: l => x' <-- g x y ;;
                    monad_fold_left l x'
        end.
 
   Fixpoint monad_fold_right (l : list B) (x : A) : T A
        := match l with
           | nil => ret x
-          | y :: l => l' <- monad_fold_right l x ;;
+          | y :: l => l' <-- monad_fold_right l x ;;
                       g l' y
           end.
 
@@ -120,8 +120,8 @@ Section MonadOperations.
   Fixpoint monad_map_i_aux (n0 : nat) (l : list A) : T (list B)
     := match l with
        | nil => ret nil
-       | x :: l => x' <- (h n0 x) ;;
-                   l' <- (monad_map_i_aux (S n0) l) ;;
+       | x :: l => x' <-- (h n0 x) ;;
+                   l' <-- (monad_map_i_aux (S n0) l) ;;
                    ret (x' :: l')
        end.
 
@@ -135,8 +135,8 @@ Section MonadOperations.
     match l, l' with
     | nil, nil => ret nil
     | x :: l, y :: l' =>
-      x' <- f x y ;;
-      xs' <- monad_map2 l l' ;;
+      x' <-- f x y ;;
+      xs' <-- monad_map2 l l' ;;
       ret (x' :: xs')
     | _, _ => raise e
     end.
@@ -147,8 +147,8 @@ Definition monad_iter {T : Type -> Type} {M A} (f : A -> T unit) (l : list A) : 
 
 Fixpoint monad_All {T : Type -> Type} {M : Monad T} {A} {P} (f : forall x, T (P x)) l : T (@All A P l) := match l with
    | [] => ret All_nil
-   | a :: l => X <- f a ;;
-              Y <- monad_All f l ;;
+   | a :: l => X <-- f a ;;
+              Y <-- monad_All f l ;;
               ret (All_cons X Y)
    end.
 
@@ -156,14 +156,14 @@ Fixpoint monad_All2 {T : Type -> Type} {E} {M : Monad T} {M' : MonadExc E T} wro
   {A B R} (f : forall x y, T (R x y)) l1 l2 : T (@All2 A B R l1 l2) :=
   match l1, l2 with
    | [], [] => ret All2_nil
-   | a :: l1, b :: l2 => X <- f a b ;;
-                        Y <- monad_All2 wrong_sizes f l1 l2 ;;
+   | a :: l1, b :: l2 => X <-- f a b ;;
+                        Y <-- monad_All2 wrong_sizes f l1 l2 ;;
                         ret (All2_cons X Y)
    | _, _ => raise wrong_sizes
    end.
 
 Definition monad_prod {T} {M : Monad T} {A B} (x : T A) (y : T B): T (A * B)%type
-  := X <- x ;; Y <- y ;; ret (X, Y).
+  := X <-- x ;; Y <-- y ;; ret (X, Y).
 
 (** monadic checks *)
 Definition check_dec {T : Type -> Type} {E : Type} {M : Monad T} {M' : MonadExc E T} (e : E) {P}
@@ -186,8 +186,8 @@ Program Fixpoint monad_Alli {T : Type -> Type} {M : Monad T} {A} {P} (f : forall
   : T (∥ @Alli A P n l ∥)
   := match l with
       | [] => ret (sq Alli_nil)
-      | a :: l => X <- f n a ;;
-                  Y <- monad_Alli f l (S n) ;;
+      | a :: l => X <-- f n a ;;
+                  Y <-- monad_Alli f l (S n) ;;
                   ret _
       end.
 Next Obligation.
@@ -198,8 +198,8 @@ Program Fixpoint monad_Alli_All {T : Type -> Type} {M : Monad T} {A} {P} {Q} (f 
   ∥ All Q l ∥ -> T (∥ @Alli A P n l ∥)
   := match l with
       | [] => fun _ => ret (sq Alli_nil)
-      | a :: l => fun allq => X <- f n a _ ;;
-                  Y <- monad_Alli_All f l (S n) _ ;;
+      | a :: l => fun allq => X <-- f n a _ ;;
+                  Y <-- monad_Alli_All f l (S n) _ ;;
                   ret _
       end.
 Next Obligation. sq.
@@ -219,8 +219,8 @@ Section monad_Alli_nth.
     T (∥ @Alli A P k l ∥)
     := match l with
       | [] => ret (sq Alli_nil)
-      | a :: l => X <- f 0 a _ ;;
-                  Y <- monad_Alli_nth_gen l (S k) (fun n x hnth => px <- f (S n) x hnth;; ret _) ;;
+      | a :: l => X <-- f 0 a _ ;;
+                  Y <-- monad_Alli_nth_gen l (S k) (fun n x hnth => px <-- f (S n) x hnth;; ret _) ;;
                   ret _
       end.
     Next Obligation.
@@ -241,8 +241,8 @@ Section MonadAllAll.
     match l return ∥ All Q l ∥ -> T (∥ All P l ∥) with
       | [] => fun _ => ret (sq All_nil)
       | a :: l => fun allq =>
-      X <- f a _ ;;
-      Y <- monad_All_All l _ ;;
+      X <-- f a _ ;;
+      Y <-- monad_All_All l _ ;;
       ret _
       end.
   Next Obligation. sq.
