@@ -1,4 +1,4 @@
-From Ltac2 Require Import Ltac2.
+(* From Ltac2 Require Import Ltac2. *)
 From Ltac2 Require Option.
 Set Ltac Debug.
 Set Ltac2 Backtrace.
@@ -9,7 +9,9 @@ From Equations Require Import Equations.
 Lemma CompareSpec_Proper : Proper (iff ==> iff ==> iff ==> Logic.eq ==> iff) CompareSpec.
 Proof.
   intros A A' HA B B' HB C C' HC c c' [].
+  Debug Off.
   destruct c; split; inversion 1; constructor; intuition.
+  Debug On.
 Qed.
 
 Definition compare_cont (c : comparison) (d : comparison) : comparison :=
@@ -24,7 +26,9 @@ Local Notation " c ?? y " := (compare_cont c y) (at level 100).
 
 Lemma compare_cont_CompOpp p q : CompOpp (compare_cont p q) = compare_cont (CompOpp p) (CompOpp q).
 Proof.
-  destruct p, q; cbn => //.
+    Debug Off.
+    destruct p, q; cbn => //.
+    Debug On.
 Qed.
 
 Definition comparison_trans p q :=
@@ -44,19 +48,27 @@ Lemma compare_cont_trans {A} (cmp : A -> A -> comparison) :
   compare_cont (cmp x y) q = c -> compare_cont (cmp y z) q' = c -> compare_cont (cmp x z) q'' = c.
 Proof.
   intros Hc He c x y z q q' q'' Hqs.
-  destruct (cmp x y) eqn:e.
+    Debug Off.
+    destruct (cmp x y) eqn:e.
+      Debug On.
   apply He in e. subst y.
   cbn. intros ->.
-  destruct (cmp x z) eqn:e'; cbn.
+    Debug Off.
+    destruct (cmp x z) eqn:e'; cbn.
+    Debug On.
   apply He in e'. subst z. now apply Hqs.
   all:auto.
 
   cbn. intros <-.
-  destruct (cmp y z) eqn:e'; cbn.
+    Debug Off.
+    destruct (cmp y z) eqn:e'; cbn.
+    Debug On.
   apply He in e'. subst z. rewrite e /= //. intros _.
   rewrite (Hc _ _ _ _ e e') /= //.
   discriminate. cbn. intros <-.
+  Debug Off.
   destruct (cmp y z) eqn:e'; cbn => //.
+  Debug On.
   eapply He in e'; subst. intros ->. rewrite e //.
   intros _. rewrite (Hc _ _ _ _ e e') //.
 Qed.
@@ -74,7 +86,9 @@ Module BoolOT <: UsualOrderedType.
 
   Definition compare_spec (x y : bool) : CompareSpec (x = y) (lt x y) (lt y x) (compare x y).
   Proof.
-    destruct x, y.
+      Debug Off.
+      destruct x, y.
+      Debug On.
     - constructor 1. reflexivity.
     - constructor 3. reflexivity.
     - constructor 2. reflexivity.
@@ -94,7 +108,9 @@ Module BoolOT <: UsualOrderedType.
     constructor.
     - intros []; cbn; unfold lt, complement; congruence.
     - intros x y z.
-      destruct x, y, z; cbn; try congruence; auto.
+        Debug Off.
+        destruct x, y, z; cbn; try congruence; auto.
+        Debug On.
   Qed.
 
   Definition lt_compat : Proper (eq ==> eq ==> iff) lt.
@@ -162,29 +178,41 @@ Module ListOrderedType (A : UsualOrderedType) <: UsualOrderedType.
   Definition compare_spec :
     forall x y : t, CompareSpec (x = y) (lt x y) (lt y x) (compare x y).
   Proof.
-    induction x; destruct y; repeat constructor.
-    cbn.
-    destruct (A.compare_spec a t0); subst.
+      Debug Off.
+      induction x; destruct y; repeat constructor.
+      Debug On.
+      cbn.
+      Debug Off.
+      destruct (A.compare_spec a t0); subst.
+      Debug On.
     - cbn. eapply CompareSpec_Proper.
       5: eapply IHx. 4: reflexivity.
+      Debug Off.
       intuition auto; congruence.
+
       * intuition auto.
         { depelim H; auto. now apply irreflexivity in H. }
         { now constructor 3. }
       * intuition auto.
         { depelim H; auto. now apply irreflexivity in H. }
         { constructor 3; auto. }
+        Debug On.
     - cbn. repeat constructor; auto.
     - cbn. repeat constructor; auto.
   Qed.
 
   Lemma compare_eq x y : compare x y = Eq -> x = y.
   Proof.
-    destruct (compare_spec x y); auto; congruence.
+      Debug Off.
+      destruct (compare_spec x y); auto; congruence.
+      Debug On.
   Qed.
 
   Lemma compare_refl x : compare x x = Eq.
-  Proof. destruct (compare_spec x x); auto; now apply irreflexivity in H. Qed.
+  Proof.   Debug Off.
+           destruct (compare_spec x x); auto; now apply irreflexivity in H.
+           Debug On.
+  Qed.
 
   Lemma compare_sym x y : compare x y = CompOpp (compare y x).
   Proof.

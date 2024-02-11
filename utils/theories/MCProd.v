@@ -1,4 +1,4 @@
-From Ltac2 Require Import Ltac2.
+(* From Ltac2 Require Import Ltac2. *)
 From Ltac2 Require Option.
 Set Ltac Debug.
 Set Ltac2 Backtrace.
@@ -54,7 +54,9 @@ Lemma on_snd_eq_spec {A B C} (f g : B -> C) (x : A * B) :
   f (snd x) = g (snd x) <->
   on_snd f x = on_snd g x.
 Proof.
+  Debug Off.
   destruct x; unfold on_snd; cbn. split; congruence.
+  Debug On.
 Qed.
 
 Definition on_pi2 {A B C} (f : B -> B) (p : A * B * C) : A * B * C :=

@@ -1,4 +1,4 @@
-From Ltac2 Require Import Ltac2.
+(* From Ltac2 Require Import Ltac2. *)
 From Ltac2 Require Option.
 Set Ltac Debug.
 Set Ltac2 Backtrace.
@@ -334,7 +334,9 @@ Module StringOT <: UsualOrderedType.
   Lemma compare_eq : forall x y : string, compare x y = Eq <-> eq x y.
   Proof.
     intros.
+    Debug Off.
     destruct (compare_spec x y); intuition auto; try congruence.
+        Debug On.
     - apply lt_not_eq in H; contradiction.
     - apply lt_not_eq in H. symmetry in H0. contradiction.
   Qed.

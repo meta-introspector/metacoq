@@ -1,4 +1,4 @@
-From Ltac2 Require Import Ltac2.
+(* From Ltac2 Require Import Ltac2. *)
 From Ltac2 Require Option.
 Set Ltac Debug.
 Set Ltac2 Backtrace.
@@ -56,7 +56,10 @@ Program Fixpoint safe_nth {A} (l : list A) (n : nat | n < List.length l) : A :=
     end
   end.
 Next Obligation.
-  exfalso. simpl in H. inversion H.
+  Debug Off.
+  exfalso.
+  Debug On.
+  simpl in H. inversion H.
 Defined.
 Next Obligation.
   simpl in H. auto with arith.
@@ -212,8 +215,10 @@ Lemma map_id_f {A} (l : list A) (f : A -> A) :
   (forall x, f x = x) ->
   map f l = l.
 Proof.
+  Debug Off.
   induction l; intros; simpl; try easy.
   rewrite H. f_equal. eauto.
+  Debug On.
 Qed.
 
 Section Reverse_Induction.
@@ -356,7 +361,9 @@ Proof.
   revert n. induction l; destruct n; simpl.
   - split; [now destruct 1 | intros H'; exfalso; inversion H'].
   - split; [now destruct 1 | intros H'; exfalso; inversion H'].
+    Debug Off.
   - split; now intuition eauto with arith.
+    Debug On.
   - destruct (IHl n); split; intros; auto with arith.
 Qed.
 
@@ -530,7 +537,10 @@ Lemma mapi_nth {A B} (l : list A) (l' : list B) (default : A) : #|l| = #|l'| ->
     mapi (fun i _ => nth i l default) l' = l.
 Proof.
   induction l' in l |- *; destruct l => /= //.
-  simpl. intros [= Hl]. cbn. f_equal. now rewrite mapi_rec_Sk.
+  simpl. intros [= Hl]. cbn. f_equal.
+  Debug Off.
+  now rewrite mapi_rec_Sk.
+  Debug On.
 Qed.
 
 Lemma skipn_length {A} n (l : list A) : length (skipn n l) = length l - n.
@@ -541,8 +551,10 @@ Qed.
 Lemma combine_map_id {A B} (l : list (A * B)) :
  l = combine (map fst l) (map snd l).
 Proof.
+  Debug Off.
   induction l ; simpl; try easy.
   destruct a. now f_equal.
+  Debug On.
 Qed.
 
 Local Ltac invs H := inversion H; subst; clear H.
@@ -1087,7 +1099,10 @@ Lemma forallb_mapi {A B} (p : B -> bool) (f : nat -> B) l :
 Proof.
   intros Hp. rewrite (mapi_unfold f).
   induction #|l| in *; simpl; auto.
-  rewrite forallb_app. simpl. now rewrite Hp // !andb_true_r.
+  rewrite forallb_app. simpl.
+  Debug Off.
+  now rewrite Hp // !andb_true_r.
+  Debug On.
 Qed.
 
 Lemma fold_left_andb_forallb {A} P l x :
@@ -1193,7 +1208,8 @@ Qed.
 Lemma app_inj_length_r {A} (l l' r r' : list A) :
   app l r = app l' r' -> #|r| = #|r'| -> l = l' /\ r = r'.
 Proof.
-  induction r in l, l', r' |- *. destruct r'; intros; simpl in *; intuition auto; try discriminate.
+  Debug Off.  induction r in l, l', r' |- *. destruct r'; intros; simpl in *; intuition auto; try discriminate.
+  Debug On.
   now rewrite !app_nil_r in H.
   intros. destruct r'; try discriminate.
   simpl in H.
@@ -1206,10 +1222,14 @@ Qed.
 Lemma app_inj_length_l {A} (l l' r r' : list A) :
   app l r = app l' r' -> #|l| = #|l'| -> l = l' /\ r = r'.
 Proof.
+  Debug Off.
   induction l in r, r', l' |- *. destruct l'; intros; simpl in *; intuition auto; try discriminate.
+  Debug On.
   intros. destruct l'; try discriminate. simpl in *. injection H as [= -> ?].
   specialize (IHl _ _ _ H).
-  destruct IHl; intuition congruence.
+    Debug Off.
+    destruct IHl; intuition congruence.
+    Debug On.
 Qed.
 
 Equations map_In {A B : Type} (l : list A) (f : forall (x : A), In x l -> B) : list B :=
@@ -1283,7 +1303,9 @@ Section SplitPrefix.
   Proof using Type.
     funelim (split_prefix l1 l2).
     1,2: simp split_prefix; now split.
+    Debug Off.
     1,2: rewrite -Heqcall; split; try easy.
+    Debug On.
     1,2: rewrite Heq in Hind; destruct Hind.
     1: now subst.
     now rewrite (eqb_eq _ _ Heq0); subst.

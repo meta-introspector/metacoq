@@ -1,4 +1,4 @@
-From Ltac2 Require Import Ltac2.
+(* From Ltac2 Require Import Ltac2. *)
 From Ltac2 Require Option.
 Set Ltac Debug.
 Set Ltac2 Backtrace.
@@ -452,7 +452,11 @@ Lemma All2_forallb2 {A B : Type} {p : A -> B -> bool}
   All2 (fun x y => is_true (p x y)) l l' -> is_true (forallb2 p l l').
 Proof.
   induction 1; simpl; intros; try congruence.
-  rewrite andb_and. intuition auto.
+
+  rewrite andb_and.
+  Debug Off.
+  intuition auto.
+  Debug On.
 Qed.
 
 Lemma forallb3_All3 {A B C : Type} {p : A -> B -> C -> bool}
@@ -470,7 +474,11 @@ Lemma All3_forallb3 {A B C : Type} {p : A -> B -> C -> bool}
   All3 (fun x y z => is_true (p x y z)) l l' l'' -> is_true (forallb3 p l l' l'').
 Proof.
   induction 1; simpl; intros; try congruence.
-  rewrite andb_and. intuition auto.
+
+  rewrite andb_and.
+  Debug Off.
+  intuition auto.
+  Debug On.
 Qed.
 
 Lemma All3P {A B C : Type} {p : A -> B -> C -> bool} {l l' l''} :
@@ -520,8 +528,11 @@ Lemma All2i_All2i_mix {A B} {P Q : nat -> A -> B -> Type}
   All2i P n l l' -> All2i Q n l l' -> All2i (fun i x y => (P i x y * Q i x y)%type) n l l'.
 Proof.
   induction 2; simpl; intros; constructor.
+  Debug Off.
   inv X; intuition auto.
+
   apply IHX0. inv X; intuition auto.
+  Debug On.
 Qed.
 
 Lemma All2i_nth_error {A B} {P : nat -> A -> B -> Type} {l l' n x c k} :
@@ -561,8 +572,10 @@ Lemma All2_All_mix_left {A B} {P : A -> Type} {Q : A -> B -> Type}
   All P l -> All2 Q l l' -> All2 (fun x y => (P x * Q x y)%type) l l'.
 Proof.
   induction 2; simpl; intros; constructor.
+  Debug Off.
   inv X; intuition auto.
   apply IHX0. inv X; intuition auto.
+  Debug On.
 Qed.
 
 Lemma All2_All_mix_right {A B} {P : B -> Type} {Q : A -> B -> Type}
@@ -570,8 +583,11 @@ Lemma All2_All_mix_right {A B} {P : B -> Type} {Q : A -> B -> Type}
   All P l' -> All2 Q l l' -> All2 (fun x y => (Q x y * P y)%type) l l'.
 Proof.
   induction 2; simpl; intros; constructor.
-  inv X; intuition auto.
+  Debug Off.
+  inv X;    
+  intuition auto.
   apply IHX0. inv X; intuition auto.
+  Debug On.
 Qed.
 
 Lemma All2i_All_mix_left {A B} {P : A -> Type} {Q : nat -> A -> B -> Type}
@@ -579,8 +595,13 @@ Lemma All2i_All_mix_left {A B} {P : A -> Type} {Q : nat -> A -> B -> Type}
   All P l -> All2i Q n l l' -> All2i (fun i x y => (P x * Q i x y)%type) n l l'.
 Proof.
   induction 2; simpl; intros; constructor.
+  Debug Off.
   inv X; intuition auto.
-  apply IHX0. inv X; intuition auto.
+  Debug On.
+  apply IHX0.
+  Debug Off.
+  inv X; intuition auto.
+  Debug On.
 Qed.
 
 Lemma All2i_All_mix_right {A B} {P : B -> Type} {Q : nat -> A -> B -> Type}
@@ -588,8 +609,11 @@ Lemma All2i_All_mix_right {A B} {P : B -> Type} {Q : nat -> A -> B -> Type}
   All P l' -> All2i Q n l l' -> All2i (fun i x y => (Q i x y * P y)%type) n l l'.
 Proof.
   induction 2; simpl; intros; constructor.
+  Debug Off.
   inv X; intuition auto.
+
   apply IHX0. inv X; intuition auto.
+    Debug On.
 Qed.
 
 Lemma All2i_All2_mix_left {A B} {P : A -> B -> Type} {Q : nat -> A -> B -> Type}
@@ -597,8 +621,10 @@ Lemma All2i_All2_mix_left {A B} {P : A -> B -> Type} {Q : nat -> A -> B -> Type}
   All2 P l l' -> All2i Q n l l' -> All2i (fun i x y => (P x y * Q i x y)%type) n l l'.
 Proof.
   induction 2; simpl; intros; constructor.
+    Debug Off.
   inv X; intuition auto.
   apply IHX0. inv X; intuition auto.
+  Debug On.
 Qed.
 
 Lemma All2_All2_All2 {A B C} {P Q R} (l : list A) (l' : list B) (l'' : list C) :
@@ -612,13 +638,19 @@ Qed.
 Lemma Forall_All {A : Type} (P : A -> Prop) l :
   Forall P l -> All P l.
 Proof.
+    Debug Off.
   induction l; intros H; constructor; auto. inv H. auto.
   apply IHl. inv H; auto.
+  Debug On.
 Qed.
 
 Lemma All_Forall {A : Type} (P : A -> Prop) l :
   All P l -> Forall P l.
-Proof. induction 1; constructor; auto. Qed.
+Proof.
+  Debug Off.
+  induction 1; constructor; auto.
+  Debug On.
+Qed.
 
 Lemma forallb_All {A} (p : A -> bool) l : is_true (forallb p l) -> All p l.
 Proof.
@@ -638,26 +670,38 @@ Proof. intros HPL; induction HPL in n |- * ; simpl; destruct n; try econstructor
 
 Lemma All_app {A} {P : A -> Type} {l l'} : All P (l ++ l') -> All P l * All P l'.
 Proof.
-  induction l; simpl; auto. intros H; depelim H; constructor; intuition auto.
+  induction l; simpl; auto.
+  Debug Off. intros H; depelim H; constructor; intuition auto.
+  Debug On.
 Qed.
 
 Lemma All_app_inv {A} (P : A -> Type) l l' : All P l -> All P l' -> All P (l ++ l').
 Proof.
   intros Hl Hl'. induction Hl. apply Hl'.
+  Debug Off.
   constructor; intuition auto.
+  Debug On.
 Defined.
 
 Lemma All_True {A} l : All (fun x : A => True) l.
 Proof.
+  Debug Off.
   induction l; intuition auto.
+  Debug On.
 Qed.
 
 Lemma All_tip {A} {P : A -> Type} {a : A} : P a <~> All P [a].
-Proof. split; intros. repeat constructor; auto. now depelim X. Qed.
+Proof. split; intros.   Debug Off.
+       repeat constructor; auto.   Debug On. now depelim X. Qed.
 
 Lemma All_mix {A} {P : A -> Type} {Q : A -> Type} {l} :
   All P l -> All Q l -> All (fun x => (P x * Q x)%type) l.
-Proof. induction 1; intros Hq; inv Hq; constructor; auto. Qed.
+
+Proof.
+  Debug Off.
+  induction 1; intros Hq; inv Hq; constructor; auto.
+  Debug On.
+Qed.
 
 Lemma All2_All_left {A B} {P : A -> B -> Type} {Q : A -> Type} {l l'} :
   All2 P l l' ->
@@ -746,7 +790,9 @@ Lemma All2_apply_dep_arrow {B C} {A} {D : B -> C -> Type} {l : list B} {l' : lis
 Proof.
   intros a all.
   eapply All2_All_mix_left in all; tea.
+  Debug Off.
   eapply (All2_impl all); intuition auto.
+  Debug On.
 Qed.
 
 Lemma All2_apply_dep_All {B C} {A} {D : C -> Type} {l : list B} {l' : list C} :
@@ -808,7 +854,9 @@ Proof. induction 1. constructor. rewrite rev_map_cons. apply All_app_inv; auto. 
 Lemma All_rev (A : Type) (P : A -> Type) (l : list A) : All P l -> All P (List.rev l).
 Proof.
   induction l using rev_ind. constructor. rewrite rev_app_distr.
-  simpl. intros X; apply All_app in X as [? ?]. inversion a0; intuition auto.
+  simpl. intros X; apply All_app in X as [? ?].
+  Debug Off. inversion a0; intuition auto.
+  Debug On.
 Qed.
 
 Lemma All_rev_inv {A} (P : A -> Type) (l : list A) : All P (List.rev l) -> All P l.
@@ -816,14 +864,21 @@ Proof.
   induction l using rev_ind. constructor.
   intros. rewrite rev_app_distr in X. simpl.
   apply All_app in X as [Allx Alll]. inv Allx.
-   apply All_app_inv; intuition eauto.
+  Debug Off.
+  apply All_app_inv; intuition eauto.
+  Debug On.
 Qed.
 
 Lemma All_impl_All {A} {P Q} {l : list A} : All P l -> All (fun x => P x -> Q x) l -> All Q l.
-Proof. induction 1; inversion 1; constructor; intuition auto. Qed.
+Proof.
+  Debug Off.induction 1; inversion 1; constructor; intuition auto.
+  Debug On.
+Qed.
 
 Lemma Alli_impl_Alli {A} {P Q} (l : list A) {n} : Alli P n l -> Alli (fun n x => P n x -> Q n x) n l -> Alli Q n l.
-Proof. induction 1; inversion 1; constructor; intuition auto. Defined.
+Proof. Debug Off.
+       induction 1; inversion 1; constructor; intuition auto.
+Debug On.Defined.
 
 Lemma All_impl {A} {P Q} {l : list A} : All P l -> (forall x, P x -> Q x) -> All Q l.
 Proof. induction 1; try constructor; intuition auto. Qed.

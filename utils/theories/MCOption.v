@@ -1,4 +1,4 @@
-From Ltac2 Require Import Ltac2.
+(* From Ltac2 Require Import Ltac2. *)
 From Ltac2 Require Option.
 Set Ltac Debug.
 Set Ltac2 Backtrace.
@@ -227,7 +227,9 @@ Qed.
 
 Lemma option_extends_spec {A} {Aeq : ReflectEq A} x y : option_extendsb x y <-> @option_extends A x y.
 Proof.
+  Debug Off.
   case: option_extendsT; intuition congruence.
+  Debug On.
 Qed.
 
 #[export] Instance option_extends_refl {A} : RelationClasses.Reflexive (@option_extends A).
