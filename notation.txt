@@ -1,0 +1,1570 @@
+-*- mode: grep; default-directory: "~/experiments/metacoq/" -*-
+Grep started at Fri Jan 26 07:43:55
+
+grep -r --color=auto -nH --null -e Notation *
+grep: common/theories/uGraph.vo: binary file matches
+grep: common/theories/EnvironmentTyping.vo: binary file matches
+grep: common/theories/EnvMap.vo: binary file matches
+common/theories/Universes.glob:205:R2909:2913 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:207:R2916:2920 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:600:R8381:8385 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:602:R8394:8398 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:865:R12607:12608 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Universes.glob:887:R13009:13010 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Universes.glob:1084:R15988:15989 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Universes.glob:1370:R20443:20443 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Universes.glob:1371:R20454:20454 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Universes.glob:1408:R20740:20744 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:1410:R20747:20751 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:1874:R27692:27696 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:1876:R27699:27703 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:2056:R29337:29341 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:2058:R29344:29348 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:2259:R32003:32007 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:2269:R32416:32417 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Universes.glob:2275:R32483:32484 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Universes.glob:2338:R32993:32994 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Universes.glob:3907:R52213:52217 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:3909:R52220:52224 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:5487:R73586:73590 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:5490:R73605:73609 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:5504:R73810:73814 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:5507:R73825:73829 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Universes.glob:6093:R83792:83793 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/BasicAst.glob:857:R9397:9401 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:859:R9410:9414 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:871:R9576:9580 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:899:R10259:10263 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:901:R10272:10276 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:953:R10777:10781 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:955:R10790:10794 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:994:R11238:11239 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/BasicAst.glob:1047:R11607:11607 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1048:R11609:11609 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1050:R11607:11607 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1051:R11609:11609 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1099:R11839:11839 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1100:R11841:11841 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1225:R12808:12809 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/BasicAst.glob:1226:R12814:12815 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/BasicAst.glob:1235:R12907:12911 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:1237:R12920:12924 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:1277:R13472:13473 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/BasicAst.glob:1285:R13570:13574 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:1287:R13583:13587 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:1316:R13982:13983 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/BasicAst.glob:1324:R14083:14087 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:1326:R14096:14100 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:1328:R14109:14113 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:1622:R17559:17559 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1623:R17561:17561 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1625:R17565:17565 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1626:R17582:17582 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/BasicAst.glob:1959:R20501:20505 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:2080:R22208:22212 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.glob:2085:R22221:22225 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+grep: common/theories/EnvironmentReflect.vo: binary file matches
+common/theories/EnvironmentReflect.v:9:  Local Notation extendsb_decls_part Σ Σ'
+common/theories/EnvironmentReflect.v:11:  Local Notation strictly_extendsb_decls_part Σ Σ'
+grep: common/theories/Universes.vo: binary file matches
+grep: common/theories/Primitive.vo: binary file matches
+grep: common/theories/Transform.vo: binary file matches
+common/theories/Transform.v:27:     Notation program' := (program env' term').
+common/theories/Transform.v:28:     Notation program := (program env term).
+common/theories/Transform.v:98:  Notation " o ▷ o' " := (Transform.compose o o' _) (at level 50, left associativity) : transform_scope.
+common/theories/MonadBasicAst.glob:7:R167:181 MetaCoq.Utils.monad_utils MCMonadNotation <> mod
+common/theories/MonadBasicAst.glob:35:R525:529 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:36:R543:549 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:72:R801:805 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:73:R815:821 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:76:R827:831 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:77:R843:849 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:107:R1059:1063 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:108:R1085:1087 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:112:R1091:1095 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:113:R1100:1102 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:145:R1379:1383 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:146:R1412:1418 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:150:R1428:1432 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:151:R1444:1450 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:201:R2014:2018 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:202:R2045:2047 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:208:R2050:2054 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:209:R2076:2078 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:216:R2101:2102 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/MonadBasicAst.glob:218:R2111:2112 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/MonadBasicAst.glob:236:R2341:2345 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:237:R2410:2412 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:284:R2766:2771 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:285:R2783:2786 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:289:R2790:2794 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:290:R2842:2844 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:334:R3134:3138 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:335:R3186:3196 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:343:R3199:3203 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:344:R3213:3223 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:380:R3481:3485 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:381:R3509:3519 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:384:R3522:3526 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/MonadBasicAst.glob:385:R3534:3544 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+grep: common/theories/Environment.vo: binary file matches
+common/theories/uGraph.v:9:Import MCMonadNotation.
+common/theories/uGraph.v:21:Notation "⎩ b ⎭" := (Z_of_bool b).
+common/theories/uGraph.v:157:  Reserved Notation "x <c y" (at level 60).
+common/theories/uGraph.v:287:Notation gc_satisfies0 := GoodConstraint.satisfies.
+common/theories/uGraph.v:300:Notation "(=_gcs)" := gcs_equal (at level 0).
+common/theories/uGraph.v:660:Local Notation lzero := Level.lzero.
+common/theories/uGraph.v:662:Local Notation vtn := VariableLevel.to_noprop.
+common/theories/uGraph.v:1138:Notation "'(=_g)'" := Equal_graph (at level 30).
+common/theories/MonadBasicAst.v:5:Import MCMonadNotation.
+common/theories/MonadBasicAst.v:57:    Notation context term := (list (context_decl term)).
+grep: common/theories/BasicAst.vo: binary file matches
+common/theories/Environment.v:26:  Notation lift0 n := (lift n 0).
+common/theories/Environment.v:127:  Notation context_decl := (context_decl term).
+common/theories/Environment.v:470:  Notation extends_decls_part_globals Σ Σ'
+common/theories/Environment.v:473:  Notation strictly_extends_decls_part_globals Σ Σ'
+common/theories/Environment.v:476:  Notation extends_decls_part Σ Σ'
+common/theories/Environment.v:479:  Notation strictly_extends_decls_part Σ Σ'
+common/theories/Environment.v:867:  Notation "Γ ,,, Γ'" :=
+common/theories/Environment.v:1211:  Notation on_decls P := (fun Γ Γ' => All_decls (P Γ Γ')).
+common/theories/Environment.v:1212:  Notation on_contexts P := (All2_fold (on_decls P)).
+common/theories/Environment.v:1213:  Notation on_contexts_over P Γ Γ' := (All2_fold (All_over (on_decls P) Γ Γ')).
+common/theories/uGraph.glob:18:R374:388 MetaCoq.Utils.monad_utils MCMonadNotation <> mod
+common/theories/uGraph.glob:73:R1435:1439 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:75:R1448:1452 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:1237:R9342:9346 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:1239:R9349:9353 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:1336:R10714:10718 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:1338:R10742:10746 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:1346:R10913:10917 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:2030:R17386:17390 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:2031:R17392:17400 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:2034:R17403:17407 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:2035:R17427:17435 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:2514:R25483:25487 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:2515:R25512:25520 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:3101:R31943:31947 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:3103:R31961:31965 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:3119:R32295:32299 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:3121:R32313:32317 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:3830:R43734:43738 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:3845:R44271:44275 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:3851:R44419:44423 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:4277:R49934:49938 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:4279:R49947:49951 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:8607:R107351:107355 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:8609:R107364:107368 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:8611:R107377:107381 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:8672:R108207:108211 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9180:R113873:113877 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:9181:R113897:113906 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:9185:R113909:113913 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:9186:R113934:113943 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+common/theories/uGraph.glob:9401:R116034:116038 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9420:R116379:116383 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9443:R116693:116697 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9457:R117198:117202 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9459:R117223:117227 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9470:R117431:117435 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9482:R117726:117730 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9510:R118132:118136 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9512:R118142:118146 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9520:R118460:118464 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/uGraph.glob:9522:R118470:118474 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/EnvironmentTyping.glob:2079:R22005:22006 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:2200:R23169:23170 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:2483:R26292:26293 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:2598:R27125:27126 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:2637:R27413:27414 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:2650:R27632:27633 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:2888:R30603:30604 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:3214:R34034:34035 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:3215:R34031:34032 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:3230:R34140:34140 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:3231:R34142:34142 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:3254:R34281:34281 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:3255:R34283:34283 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:4253:R44905:44906 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4306:R45333:45334 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4307:R45337:45338 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4425:R49421:49422 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4435:R49483:49484 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4474:R49864:49864 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:4475:R49866:49866 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:4760:R52527:52528 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4761:R52531:52532 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4871:R54376:54377 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4881:R54464:54465 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4890:R54542:54543 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4925:R54842:54843 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4935:R54930:54931 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4945:R55015:55016 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:4985:R55120:55121 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:5119:R57190:57191 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:5234:R59907:59908 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:5322:R61332:61333 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:5324:R61389:61390 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:5325:R61392:61393 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:5339:R61798:61799 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:5406:R63550:63551 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:5425:R64008:64009 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:5427:R64037:64038 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:5428:R64040:64041 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:5554:R66206:66207 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:5628:R67304:67305 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:5702:R68061:68062 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvironmentTyping.glob:7388:R87679:87679 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:7389:R87687:87687 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:7393:R87679:87679 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/EnvironmentTyping.glob:7394:R87687:87687 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Universes.v:173:Notation "(=_lset)" := LevelSet.Equal (at level 0).
+common/theories/Universes.v:175:Notation "(==_lset)" := LevelSet.equal (at level 0).
+common/theories/Universes.v:859:  Notation "x <_ n  y" := (leq_cuniverse_n n x y) (at level 10, n name) : univ_scope.
+common/theories/Universes.v:860:  Notation "x < y" := (lt_cuniverse x y) : univ_scope.
+common/theories/Universes.v:861:  Notation "x <= y" := (leq_cuniverse x y) : univ_scope.
+common/theories/Universes.v:1229:Notation "⟦ u ⟧_ v" := (Universe.to_cuniv v u) (at level 0, format "⟦ u ⟧_ v", v name) : univ_scope.
+common/theories/Universes.v:1499:Notation "(=_cset)" := ConstraintSet.Equal (at level 0).
+common/theories/Universes.v:1501:Notation "(==_cset)" := ConstraintSet.equal (at level 0).
+common/theories/Universes.v:1671:Notation "(=_cs)" := ContextSet.Equal (at level 0).
+common/theories/Universes.v:1672:Notation "(⊂_cs)" := ContextSet.Subset (at level 0).
+common/theories/Universes.v:1675:Notation "(==_cs)" := ContextSet.equal (at level 0).
+common/theories/Universes.v:1676:Notation "(⊂?_cs)" := ContextSet.subset (at level 0).
+common/theories/Universes.v:2217:Tactic Notation "unfold_univ_rel" "eqn" ":"ident(H) :=
+common/theories/Universes.v:2488:Notation "x @[ u ]" := (subst_instance u x) (at level 3,
+grep: common/theories/MonadBasicAst.vo: binary file matches
+common/theories/EnvironmentTyping.v:486:  Notation typing_sort typing := (fun Σ Γ T s => typing Σ Γ T (tSort s)).
+common/theories/EnvironmentTyping.v:491:  Notation Prop_conj P Q := (fun Σ Γ t T => P Σ Γ t T × Q Σ Γ t T).
+common/theories/EnvironmentTyping.v:621:  Notation All_local_rel_size_gen Psize base := (fun Σ Γ Δ (w : All_local_rel _ Γ Δ) =>
+common/theories/EnvironmentTyping.v:657:  Notation infer_sort_size  typing_size := (fun Σ Γ t   (tu: infer_sort _ Σ Γ t) => let 'existT s d := tu in typing_size Σ Γ t s d).
+common/theories/EnvironmentTyping.v:658:  Notation typing_sort_size typing_size := (fun Σ Γ t s (tu: typing_sort _ Σ Γ t s) => typing_size Σ Γ t (tSort s) tu).
+common/theories/EnvironmentTyping.v:720:  Notation conv cumul_gen Σ Γ := (cumul_gen Σ Γ Conv).
+common/theories/EnvironmentTyping.v:721:  Notation cumul cumul_gen Σ Γ := (cumul_gen Σ Γ Cumul).
+common/theories/EnvironmentTyping.v:723:  Notation conv_decls cumul_gen := (cumul_pb_decls cumul_gen Conv).
+common/theories/EnvironmentTyping.v:724:  Notation cumul_decls cumul_gen := (cumul_pb_decls cumul_gen Cumul).
+common/theories/EnvironmentTyping.v:725:  Notation conv_context cumul_gen Σ := (cumul_pb_context cumul_gen Conv Σ).
+common/theories/EnvironmentTyping.v:726:  Notation cumul_context cumul_gen Σ := (cumul_pb_context cumul_gen Cumul Σ).
+common/theories/EnvironmentTyping.v:857:    Reserved Notation " mdecl ;;; Γ |arg+> t " (at level 50, Γ, t at next level).
+common/theories/EnvironmentTyping.v:858:    Notation subst0 t := (subst t 0).
+common/theories/EnvironmentTyping.v:859:    Notation "M { j := N }" := (subst [N] j M) (at level 10, right associativity).
+common/theories/EnvironmentTyping.v:891:    Reserved Notation " mdecl @ i ;;; Γ |+> t " (at level 50, i, Γ, t at next level).
+common/theories/EnvironmentTyping.v:1653:  Notation " Σ ;;; Γ |- t : T " :=
+common/theories/EnvironmentTyping.v:1656:  Notation wf_local Σ Γ := (All_local_env (lift_typing Σ) Γ).
+common/theories/#BasicAst.v#:238:Notation Typ typ := (Judge None typ None).
+common/theories/#BasicAst.v#:239:Notation TermTyp tm ty := (Judge (Some tm) ty None).
+common/theories/#BasicAst.v#:240:Notation TermoptTyp tm typ := (Judge tm typ None).
+common/theories/#BasicAst.v#:241:Notation TypUniv ty u := (Judge None ty (Some u)).
+common/theories/#BasicAst.v#:242:Notation TermTypUniv tm ty u := (Judge (Some tm) ty (Some u)).
+common/theories/#BasicAst.v#:244:Notation j_vass na ty := (Typ ty (* na.(binder_relevance) *)).
+common/theories/#BasicAst.v#:245:Notation j_vass_s na ty s := (TypUniv ty s (* na.(binder_relevance) *)).
+common/theories/#BasicAst.v#:246:Notation j_vdef na b ty := (TermTyp b ty (* na.(binder_relevance) *)).
+common/theories/#BasicAst.v#:247:Notation j_decl d := (TermoptTyp (decl_body d) (decl_type d) (* (decl_name d).(binder_relevance) *)).
+common/theories/#BasicAst.v#:248:Notation j_decl_s d s := (Judge (decl_body d) (decl_type d) s (* (decl_name d).(binder_relevance) *)).
+common/theories/#BasicAst.v#:314:Notation " Γ ,, d " := (snoc Γ d) (at level 20, d at next level).
+common/theories/#BasicAst.v#:318:Notation "Γ ,,, Γ'" := (app_context Γ Γ') (at level 25, Γ' at next level, left associativity).
+common/theories/#BasicAst.v#:357:Notation onctx P := (All (ondecl P)).
+common/theories/#BasicAst.v#:415:  Notation context term := (list (context_decl term)).
+common/theories/#BasicAst.v#:584:  Notation context term := (list (context_decl term)).
+common/theories/Environment.glob:741:R6448:6449 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:742:R6453:6454 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:882:R7790:7791 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:896:R8025:8026 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:919:R8377:8377 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:920:R8379:8379 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:931:R8457:8457 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:932:R8459:8459 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:933:R8472:8473 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:1358:R15029:15030 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:1694:R20950:20950 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:1695:R20952:20952 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:1697:R21006:21007 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:1986:R25724:25725 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:1987:R25724:25725 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:1991:R25872:25873 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:1992:R25872:25873 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:1997:R26047:26048 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2000:R26047:26048 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2006:R26223:26224 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2009:R26223:26224 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2016:R26553:26554 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2017:R26553:26554 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2031:R26831:26832 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2032:R26831:26832 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2194:R29734:29735 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2200:R29764:29765 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2247:R30137:30138 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2621:R33621:33621 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:2622:R33627:33627 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:2807:R35837:35838 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2834:R36036:36037 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2971:R37330:37331 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2973:R37330:37331 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2994:R37580:37581 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:2996:R37580:37581 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:3005:R37796:37797 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:3006:R37802:37803 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Environment.glob:3064:R38329:38329 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:3065:R38336:38336 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+common/theories/Environment.glob:3220:R40380:40381 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+grep: common/theories/UniversesDec.vo: binary file matches
+common/theories/EnvMap.glob:162:R2847:2848 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/EnvMap.glob:506:R6433:6434 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+common/theories/Kernames.v:344:Notation eq_kername := (eqb (A:=kername)) (only parsing).
+common/theories/Kernames.v:404:Notation eq_inductive := (eqb (A:=inductive)).
+grep: common/theories/Kernames.vo: binary file matches
+grep: common/theories/Reflect.vo: binary file matches
+grep: common/theories/config.vo: binary file matches
+common/theories/Kernames.glob:600:R10401:10405 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/Kernames.glob:602:R10408:10412 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+common/theories/BasicAst.v:309:Notation " Γ ,, d " := (snoc Γ d) (at level 20, d at next level).
+common/theories/BasicAst.v:314:Notation onctx P := (All (ondecl P)).
+common/theories/BasicAst.v:372:  Notation context term := (list (context_decl term)).
+common/theories/BasicAst.v:541:  Notation context term := (list (context_decl term)).
+erasure/theories/EPretty.v:226:  Notation print_env := print_global_context.
+erasure/theories/EInlineProjections.v:11:Import MCMonadNotation.
+erasure/theories/ErasureFunction.v:20:Import MCMonadNotation.
+erasure/theories/ErasureFunction.v:26:Notation alpha_eq := (All2 (PCUICEquality.compare_decls eq eq)).
+erasure/theories/ErasureFunction.v:130:Notation terms_global_deps l :=
+erasure/theories/ErasureFunction.v:433:Notation terms_global_deps_gen f l :=
+erasure/theories/ErasureFunction.v:1460:Notation NormalizationIn_erase_global_deps X decls
+erasure/theories/Typed/CertifyingBeta.v:10:Import MCMonadNotation.
+erasure/theories/Typed/CertifyingEta.v:21:Import MCMonadNotation.
+erasure/theories/Typed/OptimizeCorrectness.v:26:Import ListNotations.
+erasure/theories/Typed/OptimizeCorrectness.v:580:Notation get_ctor_mask := (get_ctor_mask ind_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:581:Notation get_mib_masks := (get_mib_masks ind_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:582:Notation get_const_mask := (get_const_mask const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:583:Notation dearg := (dearg ind_masks const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:584:Notation dearg_aux := (dearg_aux ind_masks const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:585:Notation dearg_env := (dearg_env ind_masks const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:586:Notation dearg_decl := (dearg_decl ind_masks const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:587:Notation dearg_cst := (dearg_cst ind_masks const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:588:Notation dearg_case := (dearg_case ind_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:589:Notation dearg_proj := (dearg_proj ind_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:590:Notation valid_case_masks := (valid_case_masks ind_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:591:Notation valid_proj := (valid_proj ind_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:592:Notation valid_cases := (valid_cases ind_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:593:Notation valid_masks_decl := (valid_masks_decl ind_masks const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:594:Notation valid_masks_env := (valid_masks_env ind_masks const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:595:Notation is_expanded_aux := (is_expanded_aux ind_masks const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:596:Notation is_expanded := (is_expanded ind_masks const_masks).
+erasure/theories/Typed/OptimizeCorrectness.v:597:Notation is_expanded_env := (is_expanded_env ind_masks const_masks).
+erasure/theories/Typed/Optimize.v:727:Import MCMonadNotation.
+erasure/theories/Typed/Transform.v:7:Import MCMonadNotation.
+erasure/theories/Typed/Erasure.v:39:(* Import VectorDef.VectorNotations. *)
+erasure/theories/Typed/Erasure.v:761:Import VectorDef.VectorNotations.
+erasure/theories/Typed/Certifying.v:10:Import MCMonadNotation.
+erasure/theories/Typed/Utils.v:12:Import MCMonadNotation.
+erasure/theories/Typed/Utils.v:239:Notation "<%% t %%>" :=
+erasure/theories/Typed/Extraction.v:113:Import MCMonadNotation.
+erasure/theories/Typed/CertifyingInlining.v:16:Import MCMonadNotation.
+erasure/theories/Typed/ExAst.v:7:Import ListNotations.
+erasure/theories/Typed/ErasureCorrectness.v:17:Import ListNotations.
+erasure/theories/Typed/ErasureCorrectness.v:23:Notation "Σ 'p⊢' s ⇓ t" := (PCUICWcbvEval.eval Σ s t) (at level 50, s, t at next level) : type_scope.
+erasure/theories/Typed/ExtractionCorrectness.v:22:Import ListNotations.
+erasure/theories/Typed/ExtractionCorrectness.v:27:Notation "Σ 'p⊢' s ⇓ t" := (PCUICWcbvEval.eval Σ s t) (at level 50, s, t at next level) : type_scope.
+erasure/theories/Typed/WcbvEvalAux.v:15:Notation "Σ 'e⊢' s ⇓ t" := (eval Σ s t) (at level 50, s, t at next level) : type_scope.
+erasure/theories/Typed/TypeAnnotations.v:24:Import VectorNotations.
+erasure/theories/EGlobalFragment.v:17:Notation NormalizationIn_erase_global_decls X decls
+erasure/theories/Extract.v:22:Reserved Notation "Σ ;;; Γ |- s ⇝ℇ t" (at level 50, Γ, s, t at next level).
+erasure/theories/EWcbvEval.v:622:  Notation eval := (eval Σ).
+erasure/theories/EWcbvEval.v:623:  Notation value_head := (value_head Σ).
+erasure/theories/EWcbvEval.v:624:  Notation value := (value Σ).
+erasure/theories/EWcbvEval.v:1617:Tactic Notation "sim" "in" hyp(H) :=
+erasure/theories/EDeps.v:261:Notation "Σ ⊢ s ⇓ t" := (eval Σ s t) (at level 50, s, t at next level) : type_scope.
+erasure/theories/EConstructorsAsBlocks.v:11:Import MCMonadNotation.
+erasure/theories/EImplementBox.v:11:Import MCMonadNotation.
+erasure/theories/EWtAst.v:10:Import MCMonadNotation.
+erasure/theories/EWtAst.v:319:  Notation " ( x ⧆ y ) " := (exist _ x y).
+erasure/theories/ErasureProperties.v:499:  Import MCMonadNotation.
+erasure/theories/EWellformed.v:10:Import MCMonadNotation.
+erasure/theories/EWellformed.v:127:Notation wf_fix Σ := (wf_fix_gen (wellformed Σ)).
+erasure/theories/EWellformed.v:174:  Notation wellformed := (wellformed Σ).
+erasure/theories/EGenericGlobalMap.v:11:Import MCMonadNotation.
+erasure/theories/ErasureFunctionProperties.v:20:Import MCMonadNotation.
+erasure/theories/ErasureFunctionProperties.v:27:Notation alpha_eq := (All2 (PCUICEquality.compare_decls eq eq)).
+erasure/theories/ErasureFunctionProperties.v:2296:Notation NormalizationIn_erase_global_deps_fast X decls
+erasure/theories/EOptimizePropDiscr.v:16:Import MCMonadNotation.
+erasure/theories/EGenericMapEnv.v:11:Import MCMonadNotation.
+erasure/theories/ERemoveParams.v:11:Import MCMonadNotation.
+erasure/theories/ERemoveParams.v:357:Tactic Notation "simp_eta" "in" hyp(H) := simp isEtaExp in H; rewrite -?isEtaExp_equation_1 in H.
+erasure/theories/ERemoveParams.v:359:Tactic Notation "simp_strip" "in" hyp(H) := simp strip in H; rewrite -?strip_equation_1 in H.
+erasure/theories/ERemoveParams.v:609:  Notation strip' Σ := (strip Σ []).
+erasure/theories/EEnvMap.v:6:Import MCMonadNotation.
+erasure/theories/EInduction.v:224:  Import EqNotations.
+erasure/theories/EInduction.v:280:  Import EqNotations.
+erasure/theories/EEtaExpandedFix.v:208:Import MCMonadNotation.
+erasure/theories/EEtaExpandedFix.v:348:  Tactic Notation "simp_eta" "in" hyp(H) := simp isEtaExp in H; rewrite -?isEtaExp_equation_1 in H.
+erasure/theories/EEtaExpandedFix.v:767:Tactic Notation "simp_eta" "in" hyp(H) := simp isEtaExp in H; rewrite -?isEtaExp_equation_1 in H.
+erasure/theories/EWcbvEvalNamed.v:263:Reserved Notation "Γ ;;; E ⊩ s ~ t" (at level 50, E, s, t at next level).
+erasure/theories/EWcbvEvalNamed.v:671:Local Notation "'⊩' v ~ s" := (represents_value v s) (at level 50).
+erasure/theories/ErasureCorrectness.v:34:Notation "Σ |-p s ⇓ t" := (eval Σ s t) (at level 50, s, t at next level) : type_scope.
+erasure/theories/ErasureCorrectness.v:35:Notation "Σ ⊢ s ⇓ t" := (EWcbvEval.eval Σ s t) (at level 50, s, t at next level) : type_scope.
+erasure/theories/EAst.v:169:Notation " Γ ,, d " := (snoc Γ d) (at level 20, d at next level) : erasure.
+erasure/theories/EAst.v:218:Notation global_context := global_declarations.
+erasure/theories/EEtaExpanded.v:12:Import MCMonadNotation.
+erasure/theories/EEtaExpanded.v:100:Tactic Notation "simp_eta" "in" hyp(H) := simp isEtaExp in H; rewrite -?isEtaExp_equation_1 in H.
+erasure/theories/EEtaExpanded.v:105:  Notation isEtaExp := (isEtaExp Σ).
+erasure/theories/EEtaExpanded.v:219:  Notation isEtaExp := (isEtaExp Σ).
+erasure/theories/Prelim.v:371:Notation red_context Σ := (All2_fold (red_decls Σ)).
+erasure/theories/EArities.v:17:Notation "Σ ⊢p s ⇓ t" := (eval Σ s t) (at level 50, s, t at next level) : type_scope.
+erasure/theories/EArities.v:720:Notation " Σ ;;; Γ |- t ~~ u " := (cumul_prop Σ Γ t u)  (at level 50, Γ, t, u at next level) : type_scope.
+erasure/theories/EGlobalEnv.v:7:Import MCMonadNotation.
+erasure/theories/ELiftSubst.v:42:Notation lift0 n := (lift n 0).
+erasure/theories/ELiftSubst.v:78:Notation subst0 t := (subst t 0).
+erasure/theories/ELiftSubst.v:80:Notation subst10 t := (subst1 t 0).
+erasure/theories/ELiftSubst.v:81:Notation "M { j := N }" := (subst1 N j M) (at level 10, right associativity) : erasure.
+erasure/theories/ELiftSubst.v:104:Notation closed t := (closedn 0 t).
+erasure/theories/ELiftSubst.v:106:Notation subst_rec N M k := (subst N k M) (only parsing).
+erasure-plugin/theories/ETransform.v:26:Notation NormalizationIn_erase_pcuic_program_1 p
+erasure-plugin/theories/ETransform.v:30:Notation NormalizationIn_erase_pcuic_program_2 p
+examples/demo.v:5:Import MCMonadNotation.
+examples/demo.v:87:Local Notation Nat_module := (MPfile ["Datatypes"; "Init"; "Coq"], "nat").
+examples/demo.v:209:Notation inat :=
+examples/tauto.v:11:Import MCMonadNotation.
+examples/#demo.v#:2:Import MCMonadNotation.
+examples/#demo.v#:84:Local Notation Nat_module := (MPfile ["Datatypes"; "Init"; "Coq"], "nat").
+examples/#demo.v#:206:Notation inat :=
+examples/metacoq_tour_prelude.v:9:Import MCMonadNotation.
+examples/metacoq_tour.v:7:Import MCMonadNotation.
+examples/constructor_tac.v:3:Import MCMonadNotation.
+examples/typing_correctness.v:48:Import MCMonadNotation.
+examples/typing_correctness.v:77:Import MCMonadNotation.
+examples/add_constructor.v:5:Import MCMonadNotation.
+pcuic/theories/PCUICSR.v:1157:Local Notation welltyped Σ Γ t := (∑ T, Σ ;;; Γ |- t : T).
+pcuic/theories/PCUICSR.v:1158:Local Notation welltyped_terms Σ Γ := (All (fun t => welltyped Σ Γ t)).
+pcuic/theories/PCUICSR.v:1302:Notation "Σ ;;; Γ ⊢ t ⇝1 u" := (closed_red1 Σ Γ t u) (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICSR.v:3191:  Notation "Σ ⊢ Γ ⇝1 Δ" := (closed_red1_ctx Σ Γ Δ) (at level 50, Γ, Δ at next level,
+pcuic/theories/PCUICParallelReductionConfluence.v:341:Notation predicate_depth := (predicate_depth_gen depth).
+pcuic/theories/PCUICParallelReductionConfluence.v:342:Notation fold_context_term f := (fold_context (fun Γ' => map_decl (f Γ'))).
+pcuic/theories/PCUICParallelReductionConfluence.v:661:  Notation rho_predicate := (rho_predicate_gen rho).
+pcuic/theories/PCUICParallelReductionConfluence.v:662:  Notation rho_br := (map_br_gen rho).
+pcuic/theories/PCUICParallelReductionConfluence.v:663:  Notation rho_ctx_over Γ :=
+pcuic/theories/PCUICParallelReductionConfluence.v:665:  Notation rho_ctx := (fold_context_term rho).
+pcuic/theories/PCUICParallelReductionConfluence.v:666:  Notation rho_iota_red := (rho_iota_red_gen rho).
+pcuic/theories/PCUICParallelReductionConfluence.v:4090:Notation rho_ctx Σ := (fold_context_term (rho Σ)).
+pcuic/theories/PCUICArities.v:21:Notation isWAT := (isWfArity typing).
+pcuic/theories/PCUICPrincipality.v:431:Notation eq_term_napp Σ n x y :=
+pcuic/theories/PCUICPrincipality.v:434:Notation leq_term_napp Σ n x y :=
+pcuic/theories/Conversion/PCUICNamelessConv.v:1408:Notation nldecl := (map_decl_anon nl).
+pcuic/theories/PCUICContexts.v:740:Notation eq_names := (All2 (fun x y => x = (decl_name y))).
+pcuic/theories/PCUICConversion.v:43:Notation ws_cumul_pb_terms Σ Γ := (All2 (ws_cumul_pb Conv Σ Γ)).
+pcuic/theories/PCUICConversion.v:757:Notation red_terms Σ Γ := (All2 (closed_red Σ Γ)).
+pcuic/theories/PCUICConversion.v:1130:  Notation invert_red_ind := red_mkApps_tInd.
+pcuic/theories/PCUICConversion.v:1413:  Notation "Σ ;;; Γ ⊢ t ⇝1 u" := (closed_red1 Σ Γ t u) (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICConversion.v:1712:  Notation is_open_brs Γ p brs :=
+pcuic/theories/PCUICConversion.v:1717:  Notation is_open_predicate Γ p :=
+pcuic/theories/PCUICConversion.v:2094:  Notation is_open_def Γ n :=
+pcuic/theories/PCUICConversion.v:2097:  Notation is_open_mfix Γ mfix :=
+pcuic/theories/PCUICWcbvEval.v:1080:Reserved Notation " Σ ⊢ t ⇝ᵥ u " (at level 50, t, u at next level).
+pcuic/theories/PCUICSpine.v:28:Notation ctx_inst := (ctx_inst typing).
+pcuic/theories/PCUICSpine.v:32:Notation spnil isty isty' w := (type_spine_nil _ isty isty' w).
+pcuic/theories/PCUICSpine.v:35:Notation spcons isty isty' w tyhd sp := (@type_spine_cons _ _ _ _ _ _ _ _ _ _ isty isty' w tyhd sp).
+pcuic/theories/PCUICAst.v:23:Tactic Notation "pcuicfo" := pcuicfo_gen auto.
+pcuic/theories/PCUICAst.v:24:Tactic Notation "pcuicfo" tactic(tac) := pcuicfo_gen tac.
+pcuic/theories/PCUICAst.v:30:Notation length_of t := ltac:(let lemma := constr:(PCUICAst.len t) in exact lemma) (only parsing).
+pcuic/theories/PCUICAst.v:189:Notation map_branches_k f h k brs :=
+pcuic/theories/PCUICAst.v:192:Notation test_branches_k p test k brs :=
+pcuic/theories/PCUICAst.v:215:Notation prim_val := (prim_val term).
+pcuic/theories/PCUICAst.v:217:Notation tInt i := (tPrim (_; primIntModel i)) (only parsing).
+pcuic/theories/PCUICAst.v:218:Notation tFloat f := (tPrim (_; primFloatModel f)) (only parsing).
+pcuic/theories/PCUICAst.v:267:Notation lift0 n := (lift n 0).
+pcuic/theories/PCUICAst.v:303:Notation subst0 t := (subst t 0).
+pcuic/theories/PCUICAst.v:305:Notation subst10 t := (subst1 t 0).
+pcuic/theories/PCUICAst.v:306:Notation "M { j := N }" := (subst1 N j M) (at level 10, right associativity).
+pcuic/theories/PCUICAst.v:366:Notation closed t := (closedn 0 t).
+pcuic/theories/PCUICAst.v:367:Notation closed_decl n := (test_decl (closedn n)).
+pcuic/theories/PCUICAst.v:368:Notation closedn_ctx := (test_context_k closedn).
+pcuic/theories/PCUICAst.v:369:Notation closed_ctx := (closedn_ctx 0).
+pcuic/theories/PCUICValidity.v:125:  Notation type_ctx := (type_local_ctx (lift_typing typing)).
+pcuic/theories/PCUICValidity.v:132:  Notation liat := ltac:(lia) (only parsing).
+pcuic/theories/PCUICValidity.v:436:Notation validity_term wf Ht := (validity (wfΣ:=wf) Ht).
+pcuic/theories/PCUICParallelReduction.v:86:Notation on_decls_over P Γ Γ' := (fun Δ Δ' => P (Γ ,,, Δ) (Γ' ,,, Δ')).
+pcuic/theories/PCUICParallelReduction.v:87:Notation on_contexts_over P Γ Γ' := (All2_fold (on_decls (on_decls_over P Γ Γ'))).
+pcuic/theories/PCUICParallelReduction.v:88:Notation on_contexts_app := All2_fold_app.
+pcuic/theories/PCUICParallelReduction.v:89:Notation on_contexts_length := All2_fold_length.
+pcuic/theories/PCUICParallelReduction.v:239:  Reserved Notation "'pred1_ctx'" (at level 8).
+pcuic/theories/PCUICParallelReduction.v:240:  Reserved Notation "'pred1_ctx_over' Γ Γ'" (at level 200, Γ, Γ' at level 9).
+pcuic/theories/PCUICParallelReduction.v:880:Notation pred1_ctx Σ Γ Γ' := (All2_fold (on_decls (pred1 Σ)) Γ Γ').
+pcuic/theories/PCUICParallelReduction.v:881:Notation pred1_ctx_over Σ Γ Γ' := (All2_fold (on_decls (on_decls_over (pred1 Σ) Γ Γ'))).
+pcuic/theories/PCUICWellScopedCumulativity.v:32:Reserved Notation " Σ ;;; Γ ⊢ t ≤[ pb ] u" (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICWellScopedCumulativity.v:52:Notation " Σ ;;; Γ ⊢ t ≤ u " := (ws_cumul_pb Cumul Σ Γ t u) (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICWellScopedCumulativity.v:55:Notation " Σ ;;; Γ ⊢ t = u " := (ws_cumul_pb Conv Σ Γ t u) (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICWellScopedCumulativity.v:289:Notation "Σ ;;; Γ ⊢ t ⇝ u" := (closed_red Σ Γ t u) (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICWellScopedCumulativity.v:372:Notation ws_decl Γ d := (on_free_vars_decl (shiftnP #|Γ| xpred0) d).
+pcuic/theories/PCUICWellScopedCumulativity.v:460:Notation "Σ ⊢ Γ ≤[ pb ] Δ" := (ws_cumul_ctx_pb pb Σ Γ Δ) (at level 50, Γ, Δ at next level,
+pcuic/theories/PCUICWellScopedCumulativity.v:463:Notation "Σ ⊢ Γ = Δ" := (ws_cumul_ctx_pb Conv Σ Γ Δ) (at level 50, Γ, Δ at next level,
+pcuic/theories/PCUICWellScopedCumulativity.v:466:Notation "Σ ⊢ Γ ≤ Δ" := (ws_cumul_ctx_pb Cumul Σ Γ Δ) (at level 50, Γ, Δ at next level,
+pcuic/theories/PCUICWellScopedCumulativity.v:492:Notation "Σ ⊢ Γ ≤[ pb ] Δ ✓" := (wt_cumul_ctx_pb pb Σ Γ Δ) (at level 50, Γ, Δ at next level,
+pcuic/theories/PCUICWellScopedCumulativity.v:495:Notation wt_cumul_context Σ := (wt_cumul_ctx_pb Cumul Σ).
+pcuic/theories/PCUICWellScopedCumulativity.v:496:Notation wt_conv_context Σ := (wt_cumul_ctx_pb Conv Σ).
+pcuic/theories/PCUICTyping.v:9:Import MCMonadNotation.
+pcuic/theories/PCUICTyping.v:143:Reserved Notation "'wf_local' Σ Γ " (at level 9, Σ, Γ at next level).
+pcuic/theories/PCUICTyping.v:145:Reserved Notation " Σ ;;; Γ |- t : T " (at level 50, Γ, t, T at next level).
+pcuic/theories/PCUICConfluence.v:248:Notation red1_ctx_rel Σ Δ :=
+pcuic/theories/PCUICConfluence.v:253:Notation eq_one_decl Σ Re Rle :=
+pcuic/theories/PCUICConfluence.v:2580:Notation closed_term := (ws_term xpred0).
+pcuic/theories/PCUICConfluence.v:2595:Notation closed_context := (ws_context xpred0).
+pcuic/theories/PCUICConfluence.v:2596:Notation open_term Γ := (ws_term (shiftnP #|Γ| xpred0)).
+pcuic/theories/PCUICConfluence.v:3955:  Notation byfvs := (_ ltac:(eauto with fvs)) (only parsing).
+pcuic/theories/PCUICWfUniverses.v:771:  Notation closedu_ctx k := (test_context (closedu k)).
+pcuic/theories/PCUICSubstitution.v:232:Notation subst_predicate s := (map_predicate_k id (subst s)).
+pcuic/theories/PCUICSubstitution.v:1294:Notation " Σ ;;; Γ |- t <= u ✓" := (wt_cumul Σ Γ t u) (at level 50, Γ, t, u at next level).
+pcuic/theories/PCUICSubstitution.v:1295:Notation " Σ ;;; Γ |- t = u ✓" := (wt_conv Σ Γ t u) (at level 50, Γ, t, u at next level).
+pcuic/theories/PCUICSubstitution.v:1317:Reserved Notation " Σ ;;; Γ |-[ P ] t <=[ le ] u" (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICSubstitution.v:1326:Notation " Σ ;;; Γ |-[ P ] t <= u " := (cumulP Cumul Σ P Γ t u) (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICSubstitution.v:1329:Notation " Σ ;;; Γ |-[ P ] t = u " := (cumulP Conv Σ P Γ t u) (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICUnivLevels.v:78:  Notation levels_of_list := LevelSetProp.of_list.
+pcuic/theories/utils/PCUICOnOne.v:13:Notation rtrans_clos := clos_refl_trans_n1.
+pcuic/theories/utils/PCUICPretty.v:279:    Notation print_context := (print_context_gen Σ (print_term Σ true)).
+pcuic/theories/utils/PCUICPretty.v:280:    Notation pr_term Γ top := (print_term Σ true Γ top false).
+pcuic/theories/utils/PCUICUtils.v:46:Notation "x ⊩ R1 ⨶ R2" :=
+pcuic/theories/utils/PCUICUtils.v:48:Notation "R1 ⊗ R2" :=
+pcuic/theories/utils/PCUICUtils.v:51:Notation "x ⊨ e \ R1 'by' coe ⨷ R2" :=
+pcuic/theories/Bidirectional/BDTyping.v:20:Reserved Notation " Σ ;;; Γ |- t ▹ T " (at level 50, Γ, t, T at next level).
+pcuic/theories/Bidirectional/BDTyping.v:21:Reserved Notation " Σ ;;; Γ |- t ▹□ u " (at level 50, Γ, t, u at next level).
+pcuic/theories/Bidirectional/BDTyping.v:22:Reserved Notation " Σ ;;; Γ |- t ▹Π ( na , A , B ) " (at level 50, Γ, t, na, A, B at next level).
+pcuic/theories/Bidirectional/BDTyping.v:23:Reserved Notation " Σ ;;; Γ |- t ▹{ ind } ( u , args )" (at level 50, Γ, t, ind, u, args at next level).
+pcuic/theories/Bidirectional/BDTyping.v:24:Reserved Notation " Σ ;;; Γ |- t ◃ T " (at level 50, Γ, t, T at next level).
+pcuic/theories/Bidirectional/BDTyping.v:25:Reserved Notation "'wf_local_bd' Σ Γ " (at level 9, Σ, Γ at next level).
+pcuic/theories/Bidirectional/BDTyping.v:26:Reserved Notation "'wf_local_bd_rel' Σ Γ Γ'" (at level 9, Σ, Γ, Γ' at next level).
+pcuic/theories/Bidirectional/BDTyping.v:234:  #[local] Notation wfl_size := (All_local_env_sorting_size (@checking_size _) (@infering_sort_size _) _ _).
+pcuic/theories/Bidirectional/BDTyping.v:235:  #[local] Notation wfl_size_rel := (All_local_rel_sorting_size (@checking_size _) (@infering_sort_size _) _ _ _).
+pcuic/theories/PCUICProgress.v:748:Notation "¬ A" := (A -> False) (at level 50).
+pcuic/theories/PCUICSN.v:64:  Notation eqt u v := (∥ upto_names u v ∥).
+pcuic/theories/PCUICExpandLets.v:47:Notation trans_decl := (map_decl trans).
+pcuic/theories/PCUICCumulProp.v:175:Reserved Notation " Σ ;;; Γ |- t ~~ u " (at level 50, Γ, t, u at next level).
+pcuic/theories/PCUICCumulProp.v:547:Notation conv_ctx_prop Σ := (All2_fold (conv_decls_prop Σ)).
+pcuic/theories/PCUICCumulProp.v:1033:Notation eq_term_napp Σ n x y :=
+pcuic/theories/PCUICCumulProp.v:1036:Notation leq_term_napp Σ n x y :=
+pcuic/theories/PCUICSigmaCalculus.v:20:Tactic Notation "sigma" "in" hyp(id) := autorewrite with sigma in id.
+pcuic/theories/PCUICSigmaCalculus.v:97:Notation map_branches_shift ren f :=
+pcuic/theories/PCUICSigmaCalculus.v:122:Notation rename_predicate := (map_predicate_shift rename shiftn id).
+pcuic/theories/PCUICSigmaCalculus.v:123:Notation rename_branches f := (map_branches_shift rename f).
+pcuic/theories/PCUICSigmaCalculus.v:199:Notation rename_branch := (map_branch_shift rename shiftn).
+pcuic/theories/PCUICSigmaCalculus.v:589:Notation inst_predicate := (map_predicate_shift inst up id).
+pcuic/theories/PCUICSigmaCalculus.v:590:Notation inst_branch := (map_branch_shift inst up).
+pcuic/theories/PCUICSigmaCalculus.v:591:Notation inst_branches f := (map (inst_branch f)).
+pcuic/theories/PCUICSigmaCalculus.v:704:Notation "t '.[' σ ]" := (inst σ t) (at level 6, format "t .[ σ ]") : sigma_scope.
+pcuic/theories/PCUICSigmaCalculus.v:713:Notation " t ⋅ s " := (subst_cons t s) (at level 70) : sigma_scope.
+pcuic/theories/PCUICSigmaCalculus.v:720:Notation "↑" := shift : sigma_scope.
+pcuic/theories/PCUICSigmaCalculus.v:735:Notation "⇑ s" := (Up s) (at level 20).
+pcuic/theories/PCUICSigmaCalculus.v:810:Notation "↑^ k" := (shiftk k) (at level 30, k at level 2, format "↑^ k") : sigma_scope.
+pcuic/theories/PCUICSigmaCalculus.v:824:Notation " t ⋅n s " := (subst_consn t s) (at level 40) : sigma_scope.
+pcuic/theories/PCUICSigmaCalculus.v:1046:Notation "⇑^ n σ" := (Upn n σ) (at level 30, n at level 2, format "⇑^ n  σ") : sigma_scope.
+pcuic/theories/PCUICEquality.v:82:Notation global_variance Σ := (global_variance_gen (lookup_env Σ)).
+pcuic/theories/PCUICEquality.v:93:Notation R_global_instance Σ := (R_global_instance_gen (lookup_env Σ)).
+pcuic/theories/PCUICEquality.v:134:Notation eq_context_upto_names := (All2 (compare_decls eq eq)).
+pcuic/theories/PCUICEquality.v:136:Notation eq_context_gen eq_term leq_term :=
+pcuic/theories/PCUICEquality.v:285:Reserved Notation " Σ ⊢ t <==[ Rle , napp ] u" (at level 50, t, u at next level,
+pcuic/theories/PCUICEquality.v:374:Notation eq_term_upto_univ Σ Re Rle := (eq_term_upto_univ_napp Σ Re Rle 0).
+pcuic/theories/PCUICEquality.v:386:Notation eq_term := (compare_term Conv).
+pcuic/theories/PCUICEquality.v:390:Notation leq_term := (compare_term Cumul).
+pcuic/theories/PCUICEquality.v:402:Notation eq_decl := (compare_decl Conv).
+pcuic/theories/PCUICEquality.v:403:Notation leq_decl := (compare_decl Cumul).
+pcuic/theories/PCUICEquality.v:408:Notation eq_context := (compare_context Conv).
+pcuic/theories/PCUICEquality.v:409:Notation leq_context := (compare_context Cumul).
+pcuic/theories/PCUICEquality.v:411:Notation eq_context_upto Σ Re Rle :=
+pcuic/theories/PCUICEquality.v:1282:Notation upto_names' := (eq_term_upto_univ empty_global_env eq eq).
+pcuic/theories/PCUICEquality.v:1686:Notation eq_annots Γ Δ :=
+pcuic/theories/PCUICContextConversion.v:37:Notation "Σ ⊢ Γ ⇝ Δ" := (closed_red_ctx Σ Γ Δ) (at level 50, Γ, Δ at next level,
+pcuic/theories/PCUICContextConversion.v:389:  Notation conv_context := (All2_fold (conv_decls Σ)).
+pcuic/theories/PCUICContextConversion.v:390:  Notation cumul_context := (All2_fold (cumul_decls Σ)).
+pcuic/theories/PCUICContextConversion.v:1322:Notation open_context Γ := (ws_context (shiftnP #|Γ| xpred0)).
+pcuic/theories/PCUICAlpha.v:19:Notation "`≡α`" := upto_names.
+pcuic/theories/PCUICAlpha.v:21:Notation "`≡Γ`" := (eq_context_upto empty_global_env eq eq).
+pcuic/theories/Syntax/PCUICLiftSubst.v:58:Notation subst_rec N M k := (subst N k M) (only parsing).
+pcuic/theories/Syntax/PCUICOnFreeVars.v:254:Notation is_open_term Γ := (on_free_vars (shiftnP #|Γ| xpred0)).
+pcuic/theories/Syntax/PCUICOnFreeVars.v:255:Notation is_open_decl Γ := (on_free_vars_decl (shiftnP #|Γ| xpred0)).
+pcuic/theories/Syntax/PCUICOnFreeVars.v:256:Notation is_closed_context := (on_free_vars_ctx xpred0).
+pcuic/theories/Syntax/PCUICOnFreeVars.v:1191:Notation byfvs := (ltac:(cbn; eauto with fvs)) (only parsing).
+pcuic/theories/Syntax/PCUICDepth.v:57:Notation context_depth := (context_depth_gen depth).
+pcuic/theories/Syntax/PCUICDepth.v:58:Notation list_depth := (list_depth_gen depth).
+pcuic/theories/Syntax/PCUICDepth.v:59:Notation mfixpoint_depth := (mfixpoint_depth_gen depth).
+pcuic/theories/Syntax/PCUICPosition.v:8:Import MCMonadNotation.
+pcuic/theories/Syntax/PCUICPosition.v:10:Import MCMonadNotation.
+pcuic/theories/Syntax/PCUICPosition.v:12:Import MCMonadNotation.
+pcuic/theories/Syntax/PCUICPosition.v:1043:Tactic Notation "zip" "fold" "in" hyp(h) :=
+pcuic/theories/Syntax/PCUICPosition.v:1050:Tactic Notation "zip" "fold" :=
+pcuic/theories/Syntax/PCUICPosition.v:1283:Notation test_branches_k_pars p test k brs :=
+pcuic/theories/Syntax/PCUICClosed.v:754:Tactic Notation "len'" "in" hyp(id) :=
+pcuic/theories/Syntax/PCUICNamelessDef.v:64:Notation nameless_ctx := (forallb (nameless_decl nameless)).
+pcuic/theories/Syntax/PCUICInstDef.v:72:Notation "Σ ;;; Δ ⊢ σ : Γ" :=
+pcuic/theories/Syntax/PCUICTactics.v:58:Tactic Notation "len" "in" hyp(id) :=
+pcuic/theories/Syntax/PCUICTactics.v:63:Notation "'lens'" := ltac:(len) (only parsing).
+pcuic/theories/PCUICCumulativity.v:14:Reserved Notation " Σ ;;; Γ |- t <=[ pb ] u" (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICCumulativity.v:19:Notation " Σ ⊢ t <===[ pb ] u" := (compare_term pb Σ Σ t u) (at level 50, t, u at next level).
+pcuic/theories/PCUICCumulativity.v:29:Notation " Σ ;;; Γ |- t = u " := (cumulAlgo_gen Σ Γ Conv t u) (at level 50, Γ, t, u at next level) : type_scope.
+pcuic/theories/PCUICCumulativity.v:30:Notation " Σ ;;; Γ |- t <= u " := (cumulAlgo_gen Σ Γ Cumul t u) (at level 50, Γ, t, u at next level) : type_scope.
+pcuic/theories/PCUICCumulativity.v:32:Notation cumulAlgo Σ Γ := (cumulAlgo_gen Σ Γ Cumul).
+pcuic/theories/PCUICCumulativity.v:33:Notation convAlgo Σ Γ := (cumulAlgo_gen Σ Γ Conv).
+pcuic/theories/PCUICCumulativity.v:271:Notation eq_termp pb Σ := (compare_term pb Σ Σ).
+pcuic/theories/PCUICCumulativity.v:303:  Notation conv_context Γ Γ' := (All2_fold (conv_decls cumulAlgo_gen Σ) Γ Γ').
+pcuic/theories/PCUICCumulativity.v:304:  Notation cumul_context Γ Γ' := (All2_fold (cumul_decls cumulAlgo_gen Σ) Γ Γ').
+pcuic/theories/PCUICExpandLetsCorrectness.v:23:Import MCMonadNotation.
+pcuic/theories/PCUICExpandLetsCorrectness.v:1874:Notation wf_trans Σ := (@wf (cf' _) (trans_global_env Σ.1)).
+pcuic/theories/PCUICExpandLetsCorrectness.v:1875:Notation wf_ext_trans Σ := (@wf_ext (cf' _) (trans_global Σ)).
+pcuic/theories/PCUICExpandLetsCorrectness.v:2371:  Reserved Notation " Σ ;;; Γ |-- t <=[ le ] u " (at level 50, Γ, le, t, u at next level).
+pcuic/theories/PCUICExpandLetsCorrectness.v:4384:  Reserved Notation " Σ ;;; Γ | Γ' |-- t <=[ le ] u " (at level 50, Γ, Γ' , le, t, u at next level).
+pcuic/theories/PCUICInductiveInversion.v:36:Tactic Notation "substu" "in" hyp(id) :=
+pcuic/theories/PCUICInductiveInversion.v:831:Notation "⋆" := ltac:(solve [pcuic]) (only parsing).
+pcuic/theories/PCUICInductiveInversion.v:833:Notation decl_ws_cumul_pb Σ Γ := (All_decls_alpha_pb Conv
+pcuic/theories/PCUICInductiveInversion.v:1009:Notation "!! t" := ltac:(refine t) (at level 200, only parsing).
+pcuic/theories/PCUICCumulativitySpec.v:37:Reserved Notation " Σ ;;; Γ ⊢ t ≤s[ pb ] u" (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICCumulativitySpec.v:203:Notation " Σ ;;; Γ |- t <=s u " := (@cumulSpec _ Σ Γ t u) (at level 50, Γ, t, u at next level).
+pcuic/theories/PCUICCumulativitySpec.v:204:Notation " Σ ;;; Γ |- t =s u " := (@convSpec _ Σ Γ t u) (at level 50, Γ, t, u at next level).
+pcuic/theories/PCUICCumulativitySpec.v:213:Notation " Σ ⊢ Γ ≤s[ pb ] Δ " := (@cumul_pb_context _ pb Σ Γ Δ) (at level 50, Γ, Δ at next level) : type_scope.
+pcuic/theories/PCUICCumulativitySpec.v:214:Notation " Σ ⊢ Γ ≤s Δ " := (@cumul_pb_context _ Cumul Σ Γ Δ) (at level 50, Γ, Δ at next level) : type_scope.
+pcuic/theories/PCUICCumulativitySpec.v:215:Notation " Σ ⊢ Γ =s Δ " := (@cumul_pb_context _ Conv Σ Γ Δ) (at level 50, Γ, Δ at next level) : type_scope.
+pcuic/theories/PCUICCumulativitySpec.v:240:  Notation conv_context := (conv_context cumulSpec0 Σ).
+pcuic/theories/PCUICCumulativitySpec.v:241:  Notation cumul_context := (cumul_context cumulSpec0 Σ).
+pcuic/theories/PCUICCumulativitySpec.v:517:Notation cumulSpec0_ind_all := cumulSpec0_rect (only parsing).
+pcuic/theories/PCUICClassification.v:559:Tactic Notation "redt" uconstr(y) := eapply (CRelationClasses.transitivity (R:=red _ _) (y:=y)).
+pcuic/theories/PCUICClassification.v:605:  Notation wh_neutral := (whne RedFlags.default).
+pcuic/theories/PCUICClassification.v:606:  Notation wh_normal := (whnf RedFlags.default).
+pcuic/theories/PCUICMonadAst.v:5:Import MCMonadNotation.
+pcuic/theories/PCUICCasesContexts.v:27:Notation eq_names := (All2 (fun x y => x = (decl_name y))).
+pcuic/theories/PCUICWtCumulativity.v:18:Notation " Σ ;;; Γ ⊢ t ≤[ le ] u ✓" := (wt_cumul_pb le Σ Γ t u) (at level 50, Γ, t, u at next level,
+pcuic/theories/PCUICNormal.v:192:Notation decision P := ({P} + {~P}).
+pcuic/theories/PCUICReduction.v:15:Reserved Notation " Σ ;;; Γ |- t ⇝ u " (at level 50, Γ, t, u at next level).
+pcuic/theories/PCUICReduction.v:306:Notation " Σ ;;; Γ |- t ⇝* u " := (red Σ Γ t u) (at level 50, Γ, t, u at next level).
+pcuic/theories/PCUICReduction.v:662:    Notation red1_one_term Γ :=
+pcuic/theories/PCUICReduction.v:664:    Notation red_one_term Γ :=
+pcuic/theories/PCUICReduction.v:667:    Notation red1_one_context_decl Γ :=
+pcuic/theories/PCUICReduction.v:673:    Notation red_one_context_decl Γ :=
+pcuic/theories/PCUICReduction.v:677:    Notation red1_one_branch p Γ :=
+pcuic/theories/PCUICReduction.v:681:    Notation red_one_branch p Γ :=
+pcuic/theories/PCUICReduction.v:956:    Notation decomp_branch := (fun x : branch term => (bbody x, bcontext x)).
+pcuic/theories/PCUICReduction.v:957:    Notation recomp_branch := (fun x : term * context => {| bbody := x.1; bcontext := x.2 |}).
+pcuic/theories/PCUICReduction.v:958:    Notation decomp_branch' := (fun x : branch term => (bcontext x, bbody x)).
+pcuic/theories/PCUICReduction.v:959:    Notation recomp_branch' := (fun x : context * term => {| bbody := x.2; bcontext := x.1 |}).
+quotation/theories/ToTemplate/Init.v:9:Import ListNotations.
+quotation/theories/ToTemplate/Init.v:14:Import MCMonadNotation.
+quotation/theories/ToTemplate/QuotationOf/Common/Universes/UnivConstraint/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Universes/ConstraintSetExtraOrdProp/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Universes/LevelSetExtraOrdProp/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Universes/LevelExpr/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Universes/Level/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Universes/LevelSetOrdProp/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Universes/ConstraintSetOrdProp/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Universes/LevelExprSetOrdProp/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Universes/LevelExprSetExtraOrdProp/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Kernames/KernameSetExtraOrdProp/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Kernames/KernameMap/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Kernames/Kername/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Common/Kernames/KernameSetOrdProp/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Utils/MCMSets/Sig.v:4:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Coq/FSets/FMapList/Sig.v:6:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Coq/FSets/FMapAVL/Sig.v:7:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Coq/Structures/OrdersAlt/Sig.v:5:Import List.ListNotations.
+quotation/theories/ToTemplate/QuotationOf/Coq/MSets/MSetProperties/Sig.v:6:Import List.ListNotations.
+quotation/theories/ToTemplate/Utils/bytestring.v:8:Notation quote_bs := String.quote_t.
+quotation/theories/ToTemplate/Utils/bytestring.v:9:Notation quote_string := String.quote_t.
+quotation/theories/ToTemplate/Coq/Init.v:7:Import ListNotations.
+quotation/theories/ToTemplate/Coq/Lists.v:7:Import ListNotations.
+quotation/theories/ToTemplate/All.v:23:  (** N.B. Only works if you [Import Raw.QuoteNotationHints] *)
+quotation/theories/ToTemplate/All.v:24:  Notation quote := Init.quoted_term_of (only parsing).
+quotation/theories/ToTemplate/All.v:25:  Module QuoteNotationHints.
+quotation/theories/ToTemplate/All.v:32:  End QuoteNotationHints.
+quotation/theories/CommonUtils.v:6:Import ListNotations.
+quotation/theories/CommonUtils.v:11:Import MCMonadNotation.
+quotation/theories/CommonUtils.v:150:  Notation transparentify v := (match tmUnfoldQed v return _ with v' => ltac:(run_template_program v' (fun v' => exact v')) end) (only parsing).
+quotation/theories/ToPCUIC/Init.v:10:Import ListNotations.
+quotation/theories/ToPCUIC/Init.v:15:Import MCMonadNotation.
+quotation/theories/ToPCUIC/PCUIC/PCUICReduction.v:94:    Notation red1_one_term Γ :=
+quotation/theories/ToPCUIC/PCUIC/PCUICReduction.v:96:    Notation red_one_term Γ :=
+quotation/theories/ToPCUIC/PCUIC/PCUICReduction.v:99:    Notation red1_one_context_decl Γ :=
+quotation/theories/ToPCUIC/PCUIC/PCUICReduction.v:105:    Notation red_one_context_decl Γ :=
+quotation/theories/ToPCUIC/PCUIC/PCUICReduction.v:109:    Notation red1_one_branch p Γ :=
+quotation/theories/ToPCUIC/PCUIC/PCUICReduction.v:113:    Notation red_one_branch p Γ :=
+quotation/theories/ToPCUIC/QuotationOf/Common/Universes/UnivConstraint/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Universes/ConstraintSetExtraOrdProp/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Universes/LevelSetExtraOrdProp/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Universes/LevelExpr/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Universes/Level/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Universes/LevelSetOrdProp/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Universes/ConstraintSetOrdProp/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Universes/LevelExprSetOrdProp/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Universes/LevelExprSetExtraOrdProp/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Kernames/KernameSetExtraOrdProp/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Kernames/KernameMap/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Kernames/Kername/Instances.v:4:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Common/Kernames/KernameSetOrdProp/Instances.v:5:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Utils/MCMSets/Sig.v:4:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Coq/FSets/FMapList/Sig.v:6:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Coq/FSets/FMapAVL/Sig.v:7:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Coq/Structures/OrdersAlt/Sig.v:5:Import List.ListNotations.
+quotation/theories/ToPCUIC/QuotationOf/Coq/MSets/MSetProperties/Sig.v:6:Import List.ListNotations.
+quotation/theories/ToPCUIC/Utils/bytestring.v:8:Notation quote_bs := String.quote_t.
+quotation/theories/ToPCUIC/Utils/bytestring.v:9:Notation quote_string := String.quote_t.
+quotation/theories/ToPCUIC/Coq/Init.v:7:Import ListNotations.
+quotation/theories/ToPCUIC/Coq/Lists.v:7:Import ListNotations.
+quotation/theories/ToPCUIC/All.v:18:  (** N.B. Only works if you [Import Raw.QuoteNotationHints] *)
+quotation/theories/ToPCUIC/All.v:19:  Notation quote := Init.quoted_term_of (only parsing).
+quotation/theories/ToPCUIC/All.v:20:  Module QuoteNotationHints.
+quotation/theories/ToPCUIC/All.v:27:  End QuoteNotationHints.
+safechecker/theories/PCUICTypeChecker.v:33:(* Import MCMonadNotation. *)
+safechecker/theories/PCUICTypeChecker.v:276:  Local Notation ret := Checked_comp (only parsing).
+safechecker/theories/PCUICTypeChecker.v:277:  Local Notation raise := (fun e => TypeError_comp e _) (only parsing).
+safechecker/theories/PCUICTypeChecker.v:279:  Local Notation "x <- c1 ;; c2" := (
+safechecker/theories/PCUICTypeChecker.v:286:  Local Notation "e1 ;; e2" := (_ <- e1 ;; e2)
+safechecker/theories/PCUICTypeChecker.v:293:  Notation hnf := (hnf (X := X)).
+safechecker/theories/PCUICTypeChecker.v:1090:  Notation wt_brs Γ ci mdecl idecl p ptm ctors brs n :=
+safechecker/theories/PCUICTypeChecker.v:1326:  Local Notation check_eq_true b e :=
+safechecker/theories/PCUICWfEnv.v:149:Notation "Σ '∼' X" := (abstract_env_rel X Σ) (at level 40).
+safechecker/theories/PCUICWfEnv.v:150:Notation "Σ '∼_ext' X" := (abstract_env_ext_rel X Σ) (at level 40).
+safechecker/theories/PCUICSafeRetyping.v:30:Import monad_utils.MCMonadNotation.
+safechecker/theories/PCUICSafeRetyping.v:176:  #[local] Notation ret t := (t; _).
+safechecker/theories/PCUICSafeReduce.v:32:Notation " `  t " := (proj1_sig t) (at level 10, t at next level) : metacoq_scope.
+safechecker/theories/PCUICSafeReduce.v:311:  Notation givePr := (_) (only parsing).
+safechecker/theories/PCUICSafeReduce.v:317:  Notation givePr' := (conj _ (fun β hl => _)) (only parsing).
+safechecker/theories/PCUICSafeReduce.v:319:  Notation rec reduce t π :=
+safechecker/theories/PCUICSafeReduce.v:325:  Notation give t π :=
+safechecker/theories/PCUICSafeReduce.v:328:  Tactic Notation "zip" "fold" "in" hyp(h) :=
+safechecker/theories/PCUICSafeReduce.v:335:  Tactic Notation "zip" "fold" :=
+safechecker/theories/PCUICSafeReduce.v:1093:    Notation sigmaarg :=
+safechecker/theories/PCUICSafeChecker.v:29:Import MCMonadNotation.
+safechecker/theories/PCUICSafeChecker.v:455:  (* Notation " ' pat <- m ;; f " := (bind m (fun pat => f)) (pat pattern, right associativity, at level 100, m at next level). *)
+safechecker/theories/PCUICSafeChecker.v:559:  Notation eqb_term_conv X conv_pb := (eqb_term_upto_univ (abstract_env_eq X) (abstract_env_conv_pb_relb X conv_pb) (abstract_env_compare_global_instance _ X)).
+safechecker/theories/PCUICSafeChecker.v:1157:  Notation "'if' c 'then' vT 'else' vF" :=
+safechecker/theories/PCUICSafeConversion.v:123:  Notation wtp Γ t π :=
+safechecker/theories/PCUICSafeConversion.v:317:  Notation pzt u := (zipc (tm1 u) (stk1 u)) (only parsing).
+safechecker/theories/PCUICSafeConversion.v:318:  Notation pps1 u := (stack_pos (tm1 u) (stk1 u)) (only parsing).
+safechecker/theories/PCUICSafeConversion.v:319:  Notation pwt u := (exist (P := fun t => forall Σ, abstract_env_ext_rel X Σ -> welltyped Σ _ t)
+safechecker/theories/PCUICSafeConversion.v:321:  Notation pps2 u := (stack_pos (tm2 u) (stk2 u)) (only parsing).
+safechecker/theories/PCUICSafeConversion.v:323:  Notation obpack u:=
+safechecker/theories/PCUICSafeConversion.v:339:  Notation eq_term Σ t u := (eq_term Σ Σ t u).
+safechecker/theories/PCUICSafeConversion.v:531:  Notation eqb_ctx := (eqb_ctx_gen (abstract_env_eq X) abstract_env_compare_global_instance).
+safechecker/theories/PCUICSafeConversion.v:532:  Notation eqb_term := (eqb_term_upto_univ (abstract_env_eq X) (abstract_env_eq X) abstract_env_compare_global_instance).
+safechecker/theories/PCUICSafeConversion.v:533:  Notation leqb_term := (eqb_term_upto_univ (abstract_env_eq X) (abstract_env_leq X) abstract_env_compare_global_instance).
+safechecker/theories/PCUICSafeConversion.v:559:  Notation conv_stack_ctx Γ π1 π2 :=
+safechecker/theories/PCUICSafeConversion.v:562:  Notation conv_term leq Γ t π t' π' :=
+safechecker/theories/PCUICSafeConversion.v:566:  Notation alt_conv_term Γ t π t' π' :=
+safechecker/theories/PCUICSafeConversion.v:764:  Notation expand aux := (fun a b c d e f g h i => aux _ _ _ _ _ _ _ _ _) (only parsing).
+safechecker/theories/PCUICSafeConversion.v:766:  Local Notation yes := (Success _) (only parsing).
+safechecker/theories/PCUICSafeConversion.v:767:  Local Notation no := (fun e => Error e _) (only parsing).
+safechecker/theories/PCUICSafeConversion.v:774:  Local Notation repack e :=
+safechecker/theories/PCUICSafeConversion.v:778:  Notation isconv_red_raw leq t1 π1 t2 π2 aux :=
+safechecker/theories/PCUICSafeConversion.v:780:  Notation isconv_prog_raw leq t1 π1 t2 π2 aux :=
+safechecker/theories/PCUICSafeConversion.v:782:  Notation isconv_args_raw leq t1 π1 t2 π2 aux :=
+safechecker/theories/PCUICSafeConversion.v:784:  Notation isconv_fallback_raw leq t1 π1 t2 π2 aux :=
+safechecker/theories/PCUICSafeConversion.v:787:  Notation isconv_red leq t1 π1 t2 π2 aux :=
+safechecker/theories/PCUICSafeConversion.v:789:  Notation isconv_prog leq t1 π1 t2 π2 aux :=
+safechecker/theories/PCUICSafeConversion.v:791:  Notation isconv_args leq t1 π1 t2 π2 aux :=
+safechecker/theories/PCUICSafeConversion.v:793:  Notation isconv_fallback leq t1 π1 t2 π2 aux :=
+safechecker/theories/PCUICEqualityDec.v:166:Notation eqb_term_upto_univ eq leq gen_compare_global_instance :=
+safechecker/theories/PCUICEqualityDec.v:1263:  Notation eq_term Σ t u := (eq_term Σ Σ t u).
+safechecker-plugin/theories/SafeTemplateChecker.v:10:Import MCMonadNotation.
+template-coq/src/g_template_coq.mlg:174:      { let open Proofview.Notations in
+template-coq/theories/TemplateMonad/Core.v:8:Import MCMonadNotation.
+template-coq/theories/TemplateMonad/Core.v:93:(** This allow to use notations of MonadNotation *)
+template-coq/theories/LiftSubst.v:53:Notation subst_rec N M k := (subst N k M) (only parsing).
+template-coq/theories/TermEquality.v:68:Notation global_variance Σ := (global_variance_gen (lookup_env Σ)).
+template-coq/theories/TermEquality.v:79:Notation R_global_instance Σ := (R_global_instance_gen (lookup_env Σ)).
+template-coq/theories/TermEquality.v:244:Notation eq_term_upto_univ Σ Re Rle := (eq_term_upto_univ_napp Σ Re Rle 0).
+template-coq/theories/TermEquality.v:251:Notation eq_term := (compare_term Conv).
+template-coq/theories/TermEquality.v:252:Notation leq_term := (compare_term Cumul).
+template-coq/theories/Loader.v:8:Notation "<% x %>" := (ltac:(let p y := exact y in quote_term x p))
+template-coq/theories/Loader.v:13:Notation "<# x #>" := (match TemplateMonad.Core.tmQuoteRec x return _ with qx => ltac:(let p y := exact y in run_template_program qx p) end)
+template-coq/theories/Typing.v:10:Import MCMonadNotation.
+template-coq/theories/Typing.v:488:Reserved Notation " Σ ;;; Γ |- t : T " (at level 50, Γ, t, T at next level).
+template-coq/theories/Typing.v:489:Reserved Notation " Σ ;;; Γ |- t <=[ pb ] u " (at level 50, Γ, t, u at next level).
+template-coq/theories/Typing.v:509:Notation " Σ ;;; Γ |- t = u " := (cumul_gen Σ Γ Conv t u) (at level 50, Γ, t, u at next level) : type_scope.
+template-coq/theories/Typing.v:510:Notation " Σ ;;; Γ |- t <= u " := (cumul_gen Σ Γ Cumul t u) (at level 50, Γ, t, u at next level) : type_scope.
+template-coq/theories/Typing.v:740:Reserved Notation "'wf_local' Σ Γ " (at level 9, Σ, Γ at next level).
+template-coq/theories/TemplateCheckWf.v:4:Import ListNotations.
+template-coq/theories/TemplateCheckWf.v:5:Import MCMonadNotation.
+template-coq/theories/EtaExpand.v:30:Import ListNotations.
+template-coq/theories/MonadAst.v:5:Import MCMonadNotation.
+template-coq/theories/WfAst.v:26:Notation wf_nactx :=
+template-coq/theories/AstUtils.v:354:Import MCMonadNotation.
+template-coq/theories/Checker.v:5:Import MCMonadNotation.
+template-coq/theories/Checker.v:18:Local Notation " () " := Datatypes.unit : type_scope.
+template-coq/theories/Checker.v:19:Local Notation " () " := tt.
+template-coq/theories/TemplateEnvMap.v:6:Import MCMonadNotation.
+template-coq/theories/Ast.v:162:Notation shiftf f k := (fun k' => f (k' + k)).
+template-coq/theories/Ast.v:295:Notation map_branches_k f k brs :=
+template-coq/theories/Ast.v:298:Notation test_branches_k test k brs :=
+template-coq/theories/Ast.v:463:Notation lift0 n := (lift n 0).
+template-coq/theories/Ast.v:501:Notation subst0 t := (subst t 0).
+template-coq/theories/Ast.v:503:Notation subst10 t := (subst1 t 0).
+template-coq/theories/Ast.v:504:Notation "M { j := N }" := (subst1 N j M) (at level 10, right associativity).
+template-coq/theories/Ast.v:529:Notation closed t := (closedn 0 t).
+template-coq/gen-src/byte.mli:322:module ByteSyntaxNotations :
+template-coq/gen-src/uint0.ml:19:module Uint63NotationsInternalB =
+template-coq/gen-src/uint0.ml:124:module Uint63NotationsInternalC =
+template-coq/gen-src/uint0.ml:193:module Uint63NotationsInternalD =
+template-coq/gen-src/uint0.ml:332:module Uint63Notations =
+template-coq/gen-src/init.ml:15:module EquationsNotations =
+template-coq/gen-src/init.ml:29:module Sigma_Notations =
+template-coq/gen-src/byte0.mli:8:module ByteNotations :
+template-coq/gen-src/bool.mli:31:module BoolNotations :
+template-coq/gen-src/orders.mli:29:module type LtNotation =
+template-coq/gen-src/orders.mli:34:module type LeNotation =
+template-coq/gen-src/orders.mli:39:module type LtLeNotation =
+template-coq/gen-src/orders.mli:44:module type EqLtNotation =
+template-coq/gen-src/orders.mli:49:module type EqLeNotation =
+template-coq/gen-src/orders.mli:54:module type EqLtLeNotation =
+template-coq/gen-src/orders.mli:100:module type CmpNotation =
+template-coq/gen-src/orders.mli:312:module type LebNotation =
+template-coq/gen-src/orders.mli:320:module type LtbNotation =
+template-coq/gen-src/logic0.ml:55:module EqNotations =
+template-coq/gen-src/monad_utils.mli:21:module MCMonadNotation :
+template-coq/gen-src/init.mli:9:module EquationsNotations :
+template-coq/gen-src/init.mli:17:module Sigma_Notations :
+template-coq/gen-src/primInt63.mli:19:module Int63NotationsInternalA :
+template-coq/gen-src/primInt63.mli:23:module Uint63NotationsInternalA :
+template-coq/gen-src/primInt63.mli:87:module PrimInt63Notations :
+template-coq/gen-src/orders.ml:29:module type LtNotation =
+template-coq/gen-src/orders.ml:34:module type LeNotation =
+template-coq/gen-src/orders.ml:39:module type LtLeNotation =
+template-coq/gen-src/orders.ml:44:module type EqLtNotation =
+template-coq/gen-src/orders.ml:49:module type EqLeNotation =
+template-coq/gen-src/orders.ml:54:module type EqLtLeNotation =
+template-coq/gen-src/orders.ml:100:module type CmpNotation =
+template-coq/gen-src/orders.ml:343:module type LebNotation =
+template-coq/gen-src/orders.ml:351:module type LtbNotation =
+template-coq/gen-src/monad_utils.ml:34:module MCMonadNotation =
+template-coq/gen-src/primInt63.ml:32:module Int63NotationsInternalA =
+template-coq/gen-src/primInt63.ml:36:module Uint63NotationsInternalA =
+template-coq/gen-src/primInt63.ml:161:module PrimInt63Notations =
+template-coq/gen-src/primFloat.ml:22:module PrimFloatNotationsInternalA =
+template-coq/gen-src/primFloat.ml:81:module PrimFloatNotationsInternalB =
+template-coq/gen-src/primFloat.ml:169:module PrimFloatNotations =
+template-coq/gen-src/equalities.mli:22:module type EqNotation =
+template-coq/gen-src/equalities.mli:64:module type EqbNotation =
+template-coq/gen-src/specif.ml:80:module SigTNotations =
+template-coq/gen-src/logic0.mli:24:module EqNotations :
+template-coq/gen-src/byte.ml:1521:module ByteSyntaxNotations =
+template-coq/gen-src/logic2.ml:41:module Id_Notations =
+template-coq/gen-src/list0.mli:7:module ListNotations :
+template-coq/gen-src/bool.ml:72:module BoolNotations =
+template-coq/gen-src/list0.ml:8:module ListNotations =
+template-coq/gen-src/uint0.mli:12:module Uint63NotationsInternalB :
+template-coq/gen-src/uint0.mli:54:module Uint63NotationsInternalC :
+template-coq/gen-src/uint0.mli:78:module Uint63NotationsInternalD :
+template-coq/gen-src/uint0.mli:121:module Uint63Notations :
+template-coq/gen-src/equalities.ml:22:module type EqNotation =
+template-coq/gen-src/equalities.ml:64:module type EqbNotation =
+template-coq/gen-src/primFloat.mli:13:module PrimFloatNotationsInternalA :
+template-coq/gen-src/primFloat.mli:46:module PrimFloatNotationsInternalB :
+template-coq/gen-src/primFloat.mli:86:module PrimFloatNotations :
+template-coq/gen-src/logic2.mli:23:module Id_Notations :
+template-coq/gen-src/specif.mli:41:module SigTNotations :
+template-coq/gen-src/byte0.ml:30:module ByteNotations =
+template-pcuic/theories/TemplateToPCUICCorrectness.v:67:Tactic Notation "len" "in" hyp(id) :=
+template-pcuic/theories/TemplateToPCUICCorrectness.v:340:  Notation trans := (trans (trans_global_env Σ)).
+template-pcuic/theories/TemplateToPCUICCorrectness.v:341:  Notation trans_decl := (trans_decl (trans_global_env Σ)).
+template-pcuic/theories/TemplateToPCUICCorrectness.v:342:  Notation trans_local := (trans_local (trans_global_env Σ)).
+template-pcuic/theories/TemplateToPCUICCorrectness.v:440:Notation Tterm :=Template.Ast.term.
+template-pcuic/theories/TemplateToPCUICCorrectness.v:441:Notation Tcontext :=Template.Ast.Env.context.
+template-pcuic/theories/TemplateToPCUICCorrectness.v:597:Notation trΣ := (trans_global_env Σ).
+template-pcuic/theories/TemplateToPCUICCorrectness.v:667:  Notation Σ' := (trans_global_env Σ).
+template-pcuic/theories/TemplateToPCUICCorrectness.v:778:  Notation Σ' := (trans_global_env Σ).
+template-pcuic/theories/TemplateToPCUICCorrectness.v:998:  Notation Σ' := (trans_global_env Σ).
+template-pcuic/theories/TemplateToPCUICCorrectness.v:1823:Notation Swf_fix Σ def := (WfAst.wf Σ (dtype def) * WfAst.wf Σ (dbody def)).
+template-pcuic/theories/TemplateToPCUICExpanded.v:14:Tactic Notation "wf_inv" ident(H) simple_intropattern(p) :=
+template-pcuic/theories/PCUICTemplateMonad/Core.v:10:Import MCMonadNotation.
+template-pcuic/theories/PCUICTemplateMonad/Core.v:12:Notation eval_pcuic_quotation := eval_pcuic_quotation (only parsing).
+template-pcuic/theories/Loader.v:7:Notation eval_pcuic_quotation := eval_pcuic_quotation (only parsing).
+template-pcuic/theories/Loader.v:12:Notation "<% x %>" := (match @monad_trans return _ with monad_trans => ltac:(let monad_trans := constr:(monad_trans _) in let p y := exact y in let p y := run_template_program (monad_trans y) p in quote_term x p) end)
+template-pcuic/theories/Loader.v:17:Notation "<# x #>" := (match @PCUICTemplateMonad.Core.tmQuoteRec return _ with tmQuoteRec => ltac:(let qx := constr:(tmQuoteRec _ _ x) in let p y := exact y in run_template_program qx p) end)
+template-pcuic/theories/TemplateMonadToPCUIC.v:13:Import MCMonadNotation.
+template-pcuic/theories/PCUICToTemplate.v:59:Notation trans_decl := (map_decl trans).
+template-pcuic/theories/TemplateToPCUICWcbvEval.v:24:Tactic Notation "wf_inv" ident(H) simple_intropattern(p) :=
+template-pcuic/theories/PCUICToTemplateCorrectness.v:22:Import MCMonadNotation.
+template-pcuic/theories/PCUICToTemplateCorrectness.v:833:Notation eq_names := (All2 (fun x y => x = (decl_name y))).
+template-pcuic/theories/PCUICToTemplateCorrectness.v:1471:  Reserved Notation " Σ ;;; Γ |-- t <= u " (at level 50, Γ, t, u at next level).
+test-suite/inferind.v:4:Import ListNotations.
+test-suite/inferind.v:5:Import MCMonadNotation.
+test-suite/tmFreshName.v:3:Import ListNotations MCMonadNotation.
+test-suite/unfold.v:3:Import MCMonadNotation.
+test-suite/tmFix.v:18:  Import MCMonadNotation.
+test-suite/tmFix.v:47:  Import MCMonadNotation.
+test-suite/tmFix.v:65:  Import MCMonadNotation.
+test-suite/tmFix.v:69:  Import ListNotations.
+test-suite/tmFix.v:133:  Import MCMonadNotation.
+test-suite/tmFix.v:137:  Import ListNotations.
+test-suite/tmFix.v:225:Ltac2 Notation "eval" "cbv" s(strategy) "in" c(tactic(6)) := Std.eval_cbv s c.
+test-suite/tmFix.v:226:Ltac2 Notation "eval" "lazy" s(strategy) "in" c(tactic(6)) := Std.eval_lazy s c.
+test-suite/tmFix.v:227:Ltac2 Notation "eval" "vm_compute" pl(opt(seq(pattern, occurrences))) "in" c(tactic(6)) := Std.eval_vm pl c.
+test-suite/tmFix.v:228:Ltac2 Notation "eval" "native_compute" pl(opt(seq(pattern, occurrences))) "in" c(tactic(6)) := Std.eval_native pl c.
+test-suite/erasure_test.v:41:Import ListNotations.
+test-suite/bug441.v:2:Import MCMonadNotation.
+test-suite/ErasureTests.v:18:Notation "<$ x ; y ; .. ; z $>" :=
+test-suite/sprop_tests.v:3:Import ListNotations MCMonadNotation.
+test-suite/sprop_tests.v:7:Notation "'unfolded' d" :=
+test-suite/extractable.v:13:Import MCMonadNotation.
+test-suite/extractable.v:15:Notation "<% x %>" := (ltac:(let p y := exact y in quote_term x p))
+test-suite/univ.v:3:Import ListNotations MCMonadNotation.
+test-suite/univ.v:6:Notation "'unfolded' d" :=
+test-suite/univ.v:152:Require Import MetaCoq.Utils.monad_utils. Import MCMonadNotation.
+test-suite/univ.v:166:Require Import List. Import ListNotations.
+test-suite/univ.v:232:Require Import List. Import ListNotations.
+test-suite/hott_example.v:14:Notation "x * y" := (prod x y) : type_scope.
+test-suite/hott_example.v:15:Notation "( x , y , .. , z )" := (pair .. (pair x y) .. z): type_scope.
+test-suite/hott_example.v:29:Notation "x = y :> A" := (@eq A x y) : type_scope.
+test-suite/hott_example.v:31:Notation "x = y" := (x = y :>_) : type_scope.
+test-suite/hott_example.v:41:Notation id := (fun x => x).
+test-suite/hott_example.v:43:Notation compose := (fun g f x => g (f x)).
+test-suite/hott_example.v:45:Module Hott_Notations.
+test-suite/hott_example.v:46:Notation "g ∘ f" := (compose g%function f%function) (at level 1): function_scope.
+test-suite/hott_example.v:48:Notation "{ x : A & P }" := (sigT (A:=A) (fun x => P)) : type_scope.
+test-suite/hott_example.v:49:Notation "x .1" := (projT1 x) (at level 3).
+test-suite/hott_example.v:50:Notation "x .2" := (projT2 x) (at level 3).
+test-suite/hott_example.v:51:Notation " ( x ; p ) " := (existT _ x p).
+test-suite/hott_example.v:53:Notation "f == g" := (forall x, f x = g x) (at level 70).
+test-suite/hott_example.v:54:End Hott_Notations.
+test-suite/hott_example.v:55:Import Hott_Notations.
+test-suite/hott_example.v:97:Notation "p # x" := (transport_eq _ p x) (right associativity, at level 65, only parsing).
+test-suite/hott_example.v:103:Notation "p @ q" := (concat p q) (at level 20).
+test-suite/hott_example.v:108:Notation "p ^" := (inverse p) (at level 3, format "p '^'").
+test-suite/hott_example.v:241:Notation "p ..1" := (pr1_path p) (at level 50).
+test-suite/hott_example.v:248:Notation "p ..2" := (pr2_path p) (at level 50).
+test-suite/hott_example.v:410:Notation "A ≃ B" := (Equiv A B) (at level 20).
+test-suite/hott_example.v:424:Notation "↑" := univalent_transport (at level 65, only parsing).
+test-suite/tmQuoteModule.v:3:Import MCMonadNotation.
+test-suite/erasure_live_test.v:15:Import MCMonadNotation.
+test-suite/issue28.v:4:Import ListNotations.
+test-suite/issue28.v:5:Import MCMonadNotation.
+test-suite/modules_sections.v:3:Import MCMonadNotation.
+test-suite/letin.v:5:Notation test := (let x := 2 in x).
+test-suite/opaque.v:4:Import MCMonadNotation ListNotations.
+test-suite/plugin-demo/theories/MyPlugin.v:10:Notation TemplateMonad := TM.
+test-suite/plugin-demo/theories/MyPlugin.v:37:Notation "<% x %>" := (ltac:(let p y := exact y in quote_term x p))
+test-suite/plugin-demo/theories/#MyPlugin.v#:10:Notation TemplateMonad := TM.
+test-suite/plugin-demo/theories/#MyPlugin.v#:37:Notation "<% x %>" := (ltac:(let p y := exact y in quote_term x p))
+test-suite/primitive.v:7:Import MCMonadNotation.
+test-suite/primitive.v:11:Notation eval_hnf := (tmEval hnf).
+test-suite/primitive.v:12:Notation eval := (tmEval all).
+test-suite/evars.v:3:Import ListNotations.
+test-suite/castprop.v:20:Notation proof t :=
+test-suite/proj.v:42:Import ListNotations.
+test-suite/int.v:5:Import List.ListNotations.
+test-suite/inferindunivs.v:4:Import ListNotations.
+test-suite/inferindunivs.v:5:Import MCMonadNotation.
+test-suite/TypeAnnotationTests.v:20:Import ListNotations.
+test-suite/TypeAnnotationTests.v:24:Local Notation "s1 ^ s2" := (String.append s1 s2) : bs_scope.
+test-suite/run_in_tactic.v:3:Import MCMonadNotation.
+test-suite/tmInferInstance.v:4:Import MCMonadNotation.
+test-suite/vs.v:40:(*Notation "f \o g" := (compose f g) (at level 54, right associativity).*)
+test-suite/vs.v:45:Import ListNotations.
+test-suite/vs.v:914:Notation sortu_atms := (rsort_uniq pure_atom_cmp).
+test-suite/vs.v:915:Notation insu_atm := (insert_uniq pure_atom_cmp).
+test-suite/vs.v:916:Notation sortu_clauses := (rsort_uniq compare_clause).
+test-suite/vs.v:1180:Notation canons := (list (A*B)).
+test-suite/vs.v:1203:Notation expr_get := (lookC _ _ expr_cmp (@id _)).
+test-suite/vs.v:1204:Notation expr_merge := (mergeC _ _ expr_cmp expr_cmp (@id _)).
+test-suite/vs.v:1207:Local Notation expr_rewriteC := (rewriteC expr _ expr_cmp).
+test-suite/reduction_test.v:13:Import MCMonadNotation.
+test-suite/tmExistingInstance.v:3:Import MCMonadNotation.
+test-suite/tmVariable.v:3:Import MCMonadNotation.
+translations/param_cheap_packed.v:6:Import MCMonadNotation.
+translations/param_cheap_packed.v:20:Reserved Notation "'tsl_ty_param'".
+translations/param_cheap_packed.v:235:Notation "'TYPE'" := (sigma Type (fun A => A -> Type)).
+translations/param_cheap_packed.v:236:Notation "'El' A" := (sigma (π1 A) (π2 A)) (at level 20).
+translations/param_cheap_packed.v:393:(* Notation "'tΣ'" := (tInd (mkInd "Template.sigma.sigma" 0)). *)
+translations/param_cheap_packed.v:394:(* Notation "'tproj1'" := (tProj (mkInd "Template.sigma.sigma" 0, 2, 0)). *)
+translations/param_cheap_packed.v:395:(* Notation "'tImpl'" := (tProd nAnon). *)
+translations/param_generous_packed.v:7:Import MCMonadNotation.
+translations/param_generous_packed.v:9:Reserved Notation "'tsl_ty_param'".
+translations/param_generous_packed.v:149:Notation "'TYPE'" := ({ A : Type & A -> Type}).
+translations/param_generous_packed.v:150:Notation "'El' A" := (@sigT A.1 A.2) (at level 20).
+translations/param_generous_packed.v:263:Notation " A × B " := (@sigT A (fun _ => B)) : type_scope.
+translations/standard_model.v:5:Import MCMonadNotation.
+translations/standard_model.v:29:Notation app0 := (fun t => subst_app t [tRel 0]).
+translations/translation_utils.v:5:Import MCMonadNotation.
+translations/sigma.v:6:Import MCMonadNotation.
+translations/sigma.v:19:Notation "{ x  &&  P }" := (sigma (fun x => P)) : type_scope.
+translations/sigma.v:20:Notation "{ t : A && P }" := (sigma A (fun t => P)) : type_scope.
+translations/sigma.v:21:Notation "( x ; y )" := (mk_sig x y) : sigma_scope.
+translations/sigma.v:22:Notation "x .1" := (π1 x) (at level 2, left associativity, format "x .1") : sigma_scope.
+translations/sigma.v:23:Notation "x .2" := (π2 x) (at level 2, left associativity, format "x .2") : sigma_scope.
+translations/sigma.v:24:Notation "'∃' x .. y , p" := (sigma _ (fun x => .. (sigma _ (fun y => p)) ..))
+translations/sigma.v:29:Notation " A × B " := (sigma A (fun _ => B)) (at level 80, right associativity) : type_scope.
+translations/times_bool_fun.v:7:Import MCMonadNotation.
+translations/times_bool_fun.v:19:Notation "( x ; y )" := (pair x y) : prod_scope.
+translations/times_bool_fun.v:20:Notation " A × B " := (prod A B) : type_scope.
+translations/times_bool_fun.v:232:Tactic Notation "tSpecialize" ident(H) uconstr(t)
+translations/times_bool_fun.v:234:Tactic Notation "tIntro" ident(H)
+translations/MiniHoTT_paths.v:41:Notation "'exists' x .. y , p" := (sigT (fun x => .. (sigT (fun y => p)) ..))
+translations/MiniHoTT_paths.v:45:Notation "{ x : A  & P }" := (sigT (fun x:A => P)) : type_scope.
+translations/MiniHoTT_paths.v:85:Tactic Notation "etransitivity" open_constr(y) :=
+translations/MiniHoTT_paths.v:93:Tactic Notation "etransitivity" := etransitivity _.
+translations/MiniHoTT_paths.v:97:Notation idmap := (fun x => x).
+translations/MiniHoTT_paths.v:121:Notation "( x ; y )" := (existT _ x y) : fibration_scope.
+translations/MiniHoTT_paths.v:123:Notation pr1 := projT1.
+translations/MiniHoTT_paths.v:124:Notation pr2 := projT2.
+translations/MiniHoTT_paths.v:125:Notation "x .1" := (pr1 x) (at level 2, left associativity, format "x .1") : fibration_scope.
+translations/MiniHoTT_paths.v:126:Notation "x .2" := (pr2 x) (at level 2, left associativity, format "x .2") : fibration_scope.
+translations/MiniHoTT_paths.v:128:Notation compose := (fun g f x => g (f x)).
+translations/MiniHoTT_paths.v:129:Notation "g 'o' f" := (compose g%function f%function) (at level 40, left associativity) : function_scope.
+translations/MiniHoTT_paths.v:146:Notation "g 'oD' f" := (composeD g f) (at level 40, left associativity) : function_scope.
+translations/MiniHoTT_paths.v:148:Notation "x = y :> A" := (paths A x y) : type_scope.
+translations/MiniHoTT_paths.v:149:Notation "x = y" := (x = y :>_) : type_scope.
+translations/MiniHoTT_paths.v:160:Notation "1" := (idpath _) : path_scope.
+translations/MiniHoTT_paths.v:170:Notation "p # x" := (transport _ p x) (right associativity, at level 65, only parsing) : path_scope.
+translations/MiniHoTT_paths.v:188:Notation "p @ q" := (concat p%path q%path) (at level 20) : path_scope.
+translations/MiniHoTT_paths.v:189:Notation "p ^" := (inverse p%path) (at level 3, format "p '^'") : path_scope.
+translations/MiniHoTT_paths.v:204:Notation "f == g" := (pointwise_paths f g) (at level 70, no associativity) : type_scope.
+translations/MiniHoTT_paths.v:261:Notation "A <~> B" := (Equiv A B) (at level 90) : type_scope.
+translations/MiniHoTT_paths.v:263:Notation "f ^-1" := (@equiv_inv _ _ f _) (at level 3, format "f '^-1'") : function_scope.
+translations/MiniHoTT_paths.v:1045:Notation "p @@ q" := (concat2 p q)%path (at level 20) : path_scope.
+translations/MiniHoTT_paths.v:1315:Notation concatR := (fun p q => concat q p).
+translations/MiniHoTT_paths.v:1455:Notation "1" := equiv_idmap : equiv_scope.
+translations/MiniHoTT_paths.v:1494:Notation "g 'oE' f" := (equiv_compose' g%equiv f%equiv) (at level 40, left associativity) : equiv_scope.
+translations/MiniHoTT_paths.v:1584:Notation "e ^-1" := (@equiv_inverse _ _ e) : equiv_scope.
+translations/MiniHoTT_paths.v:2951:Notation "p ..1" := (pr1_path p) (at level 3) : fibration_scope.
+translations/MiniHoTT_paths.v:2958:Notation "p ..2" := (pr2_path p) (at level 3) : fibration_scope.
+translations/param_original.v:5:Import MCMonadNotation.
+translations/param_generous_unpacked.v:7:Reserved Notation "'tsl_ty_param'".
+translations/param_generous_unpacked.v:274:Notation " Γ ,, d " := (d :: Γ) (at level 20, d at next level, only parsing).
+translations/param_generous_unpacked.v:290:Notation "#| Γ |" := (List.length Γ) (at level 0, Γ at level 99, format "#| Γ |") : term_scope.
+translations/param_generous_unpacked.v:310:Notation "( x ; y )" := (exist _ x y).
+translations/param_generous_unpacked.v:479:Notation "'hidden" := (show _ (Hidden _ _)).
+translations/times_bool_fun2.v:8:Import MCMonadNotation.
+translations/MiniHoTT.v:37:Notation "'exists' x .. y , p" := (sigT (fun x => .. (sigT (fun y => p)) ..))
+translations/MiniHoTT.v:41:Notation "{ x : A  & P }" := (sigT (fun x:A => P)) : type_scope.
+translations/MiniHoTT.v:82:Tactic Notation "etransitivity" open_constr(y) :=
+translations/MiniHoTT.v:90:Tactic Notation "etransitivity" := etransitivity _.
+translations/MiniHoTT.v:94:Notation idmap := (fun x => x).
+translations/MiniHoTT.v:118:Notation "( x ; y )" := (existT _ x y) : fibration_scope.
+translations/MiniHoTT.v:120:Notation pr1 := projT1.
+translations/MiniHoTT.v:121:Notation pr2 := projT2.
+translations/MiniHoTT.v:122:Notation "x .1" := (pr1 x) (at level 2, left associativity, format "x .1") : fibration_scope.
+translations/MiniHoTT.v:123:Notation "x .2" := (pr2 x) (at level 2, left associativity, format "x .2") : fibration_scope.
+translations/MiniHoTT.v:125:Notation compose := (fun g f x => g (f x)).
+translations/MiniHoTT.v:126:Notation "g 'o' f" := (compose g%function f%function) (at level 40, left associativity) : function_scope.
+translations/MiniHoTT.v:143:Notation "g 'oD' f" := (composeD g f) (at level 40, left associativity) : function_scope.
+translations/MiniHoTT.v:145:Notation "x = y :> A" := (paths A x y) : type_scope.
+translations/MiniHoTT.v:146:Notation "x = y" := (x = y :>_) : type_scope.
+translations/MiniHoTT.v:157:Notation "1" := (idpath _) : path_scope.
+translations/MiniHoTT.v:167:Notation "p # x" := (transport _ p x) (right associativity, at level 65, only parsing) : path_scope.
+translations/MiniHoTT.v:185:Notation "p @ q" := (concat p%path q%path) (at level 20) : path_scope.
+translations/MiniHoTT.v:186:Notation "p ^" := (inverse p%path) (at level 3, format "p '^'") : path_scope.
+translations/MiniHoTT.v:201:Notation "f == g" := (pointwise_paths f g) (at level 70, no associativity) : type_scope.
+translations/MiniHoTT.v:258:Notation "A <~> B" := (Equiv A B) (at level 90) : type_scope.
+translations/MiniHoTT.v:260:Notation "f ^-1" := (@equiv_inv _ _ f _) (at level 3, format "f '^-1'") : function_scope.
+translations/MiniHoTT.v:1042:Notation "p @@ q" := (concat2 p q)%path (at level 20) : path_scope.
+translations/MiniHoTT.v:1312:Notation concatR := (fun p q => concat q p).
+translations/MiniHoTT.v:1452:Notation "1" := equiv_idmap : equiv_scope.
+translations/MiniHoTT.v:1491:Notation "g 'oE' f" := (equiv_compose' g%equiv f%equiv) (at level 40, left associativity) : equiv_scope.
+translations/MiniHoTT.v:1581:Notation "e ^-1" := (@equiv_inverse _ _ e) : equiv_scope.
+translations/MiniHoTT.v:2948:Notation "p ..1" := (pr1_path p) (at level 3) : fibration_scope.
+translations/MiniHoTT.v:2955:Notation "p ..2" := (pr2_path p) (at level 3) : fibration_scope.
+translations/param_binary.v:5:Import MCMonadNotation.
+utils/theories/MCList.v:7:Export ListNotations.
+utils/theories/MCList.v:12:Notation "#| l |" := (List.length l) (at level 0, l at level 99, format "#| l |").
+utils/theories/MCList.v:1278:  Local Notation "'Simp'" := ltac:(simp split_prefix) (only parsing) : ssripat_scope.
+utils/theories/LibHypsNaming.v:256:Tactic Notation "!!" tactic3(Tac) := (rename_new_hyps Tac).
+utils/theories/LibHypsNaming.v:257:Tactic Notation "!!" tactic3(Tac) constr(h) :=
+utils/theories/LibHypsNaming.v:279:(* Tactic Notation "" tactic3(Tac) := subst_new_hyps Tac. *)
+utils/theories/LibHypsNaming.v:283:Tactic Notation "!!!" tactic3(Tac) := !! (subst_new_hyps Tac).
+utils/theories/LibHypsNaming.v:295:(* Tactic Notation "!!" tactic3(T) := idall; T ; rename_hyps. *)
+utils/theories/LibHypsNaming.v:296:(* Tactic Notation "!!" tactic3(T) constr(h) := *)
+utils/theories/LibHypsNaming.v:299:(* Tactic Notation "!!" tactic3(T) constr(h) constr(h2) := *)
+utils/theories/LibHypsNaming.v:336:(* Tactic Notation "decomp" hyp(h) :=
+utils/theories/LibHypsNaming.v:339: Tactic Notation "decomp" constr(c) :=
+utils/theories/LibHypsNaming.v:367:Tactic Notation "!induction" constr(h) := !! (induction h).
+utils/theories/LibHypsNaming.v:368:Tactic Notation "!destruct" constr(h) := !! (destruct h).
+utils/theories/LibHypsNaming.v:370:Tactic Notation "!destruct" constr(h) "!eqn:" ident(id) :=
+utils/theories/LibHypsNaming.v:372:Tactic Notation "!destruct" constr(h) "!eqn:?" := (!!(destruct h eqn:?)).
+utils/theories/LibHypsNaming.v:374:Tactic Notation "!inversion" hyp(h) := !!! (inversion h).
+utils/theories/LibHypsNaming.v:375:Tactic Notation "!invclear" hyp(h) := !!! (inversion h;clear h).
+utils/theories/LibHypsNaming.v:376:Tactic Notation "!assert" constr(h) := !! (assert h).
+utils/theories/LibHypsNaming.v:378:Tactic Notation "!intros" := !!intros.
+utils/theories/LibHypsNaming.v:380:Tactic Notation "!intro" := !!intro.
+utils/theories/LibHypsNaming.v:382:Tactic Notation "!intros" "until" ident(id)
+utils/theories/LibHypsNaming.v:385:Tactic Notation "!intros" simple_intropattern(id1)
+utils/theories/LibHypsNaming.v:388:Tactic Notation "!intros" ident(id1) ident(id2)
+utils/theories/LibHypsNaming.v:390:Tactic Notation "!intros" ident(id1) ident(id2) ident(id3)
+utils/theories/LibHypsNaming.v:392:Tactic Notation "!intros" ident(id1) ident(id2) ident(id3) ident(id4)
+utils/theories/LibHypsNaming.v:395:Tactic Notation "!intros" ident(id1) ident(id2) ident(id3) ident(id4) ident(id5)
+utils/theories/LibHypsNaming.v:397:Tactic Notation "!intros" ident(id1) ident(id2) ident(id3) ident(id4) ident(id5) ident(id6)
+grep: utils/theories/MCList.vo: binary file matches
+grep: utils/theories/MCFSets.vo: binary file matches
+grep: utils/theories/MCArith.vo: binary file matches
+utils/theories/MCListable.v:5:Import ListNotations.
+utils/theories/bytestring.glob:839:R11147:11151 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/bytestring.glob:841:R11154:11158 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCSquash.v:4:Notation "∥ T ∥" := (squash T) (at level 10).
+grep: utils/theories/MC_ExtrOCamlZPosInt.vo: binary file matches
+grep: utils/theories/MCEquality.vo: binary file matches
+grep: utils/theories/MCCompare.vo: binary file matches
+grep: utils/theories/MCPred.vo: binary file matches
+utils/theories/MCString.v:5:Notation string := String.t.
+utils/theories/MCUtils.v:28:Tactic Notation "destruct" "?" :=
+utils/theories/MCUtils.v:35:Tactic Notation "destruct" "?" "in" hyp(H) :=
+utils/theories/MCUtils.v:66:Tactic Notation "toProp" ident(H) :=
+utils/theories/MCUtils.v:97:Tactic Notation "toProp" :=
+utils/theories/MCUtils.v:128:Tactic Notation "toProp" ident(H) "as" simple_intropattern(X) :=
+utils/theories/MCUtils.v:139:Tactic Notation "toProp" "as" simple_intropattern(X) :=
+utils/theories/MCUtils.v:161:Tactic Notation "forward" constr(H) := forward_gen H ltac:(idtac).
+utils/theories/MCUtils.v:162:Tactic Notation "forward" constr(H) "by" tactic(tac) := forward_gen H tac.
+utils/theories/MCUtils.v:216:Tactic Notation "gtry" tactic3(tac) := gtry tac.
+grep: utils/theories/MCString.vo: binary file matches
+grep: utils/theories/ByteCompare.vo: binary file matches
+utils/theories/ReflectEq.v:3:Import ListNotations.
+utils/theories/MCPrelude.glob:112:R1883:1887 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCPrelude.glob:114:R1892:1896 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCPrelude.glob:127:R2270:2274 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCPrelude.glob:138:R2437:2441 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCPrelude.glob:141:R2453:2457 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+grep: utils/theories/All_Forall.vo: binary file matches
+utils/theories/All_Forall.glob:18:R217:229 Coq.Lists.List ListNotations <> mod
+utils/theories/All_Forall.glob:31:R435:436 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:73:R790:791 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:115:R1086:1087 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:116:R1083:1084 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:163:R1430:1430 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:164:R1432:1432 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:166:R1426:1426 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:167:R1428:1428 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:320:R2724:2725 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:321:R2721:2722 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:374:R3080:3081 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:375:R3077:3078 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:376:R3074:3075 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:439:R3448:3449 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:440:R3445:3446 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:441:R3442:3443 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:513:R4007:4008 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:514:R4011:4012 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:519:R4057:4058 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:520:R4068:4069 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:543:R4336:4346 Coq.Init.Logic EqNotations <> mod
+utils/theories/All_Forall.glob:575:R4591:4592 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:576:R4595:4596 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:581:R4614:4618 Coq.Init.Logic EqNotations :::'rew'_'['_x_']'_x_'in'_x not
+utils/theories/All_Forall.glob:582:R4632:4633 Coq.Init.Logic EqNotations :::'rew'_'['_x_']'_x_'in'_x not
+utils/theories/All_Forall.glob:583:R4650:4653 Coq.Init.Logic EqNotations :::'rew'_'['_x_']'_x_'in'_x not
+utils/theories/All_Forall.glob:589:R4689:4690 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:590:R4700:4701 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:601:R4797:4800 Coq.Init.Logic EqNotations :::'rew'_x_'in'_x not
+utils/theories/All_Forall.glob:602:R4826:4829 Coq.Init.Logic EqNotations :::'rew'_x_'in'_x not
+utils/theories/All_Forall.glob:635:R5091:5092 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:636:R5088:5089 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:706:R5716:5717 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:707:R5713:5714 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:776:R6045:6046 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:777:R6042:6043 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:861:R6666:6667 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:862:R6663:6664 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:936:R7084:7085 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:982:R7401:7401 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/All_Forall.glob:983:R7450:7455 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/All_Forall.glob:989:R7458:7462 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/All_Forall.glob:991:R7465:7469 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/All_Forall.glob:1268:R9787:9788 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:1269:R9791:9792 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:1300:R10057:10058 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:1301:R10061:10062 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:1302:R10065:10066 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:1495:R11928:11932 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/All_Forall.glob:1497:R11935:11939 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/All_Forall.glob:2055:R16977:16977 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:2056:R16979:16979 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:2066:R16999:16999 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:2067:R17002:17002 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:2580:R21674:21674 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:2581:R21676:21676 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:4537:R37107:37108 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:4538:R37107:37108 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:5466:R44416:44417 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:5467:R44416:44417 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:6372:R51349:51350 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:6373:R51349:51350 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:7673:R61734:61735 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:8870:R71967:71967 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:8871:R71970:71970 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:8875:R71955:71955 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:8876:R71957:71957 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:8945:R72864:72864 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:8946:R72866:72866 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:8956:R72889:72889 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:8957:R72892:72892 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:9048:R73611:73612 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:9049:R73611:73612 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:9085:R73991:73992 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:9086:R73991:73992 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:9150:R74614:74615 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:9151:R74611:74612 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:9179:R74749:74749 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:9180:R74751:74751 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:9184:R74732:74732 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:9185:R74734:74734 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:9222:R75121:75122 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:9223:R75118:75119 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:9251:R75256:75256 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:9252:R75258:75258 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:9256:R75239:75239 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:9257:R75241:75241 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:11123:R91852:91853 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:11124:R91852:91853 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:11807:R97559:97560 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:11808:R97556:97557 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:12174:R100360:100360 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:12175:R100363:100363 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:12179:R100348:100348 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:12180:R100350:100350 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:12991:R107547:107548 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:12992:R107547:107548 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:13300:R109584:109584 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:13301:R109586:109586 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/All_Forall.glob:13306:R109593:109594 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:14693:R121579:121580 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:14700:R121588:121589 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:14721:R121900:121901 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:15880:R130421:130422 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:15885:R130421:130422 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:15971:R131658:131659 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:16001:R132244:132245 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:16135:R133787:133788 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/All_Forall.glob:16167:R134401:134402 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:11:R190:202 Coq.Lists.List ListNotations <> mod
+utils/theories/MCList.glob:28:R499:499 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCList.glob:29:R529:534 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCList.glob:33:R543:547 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCList.glob:50:R688:688 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:51:R690:690 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:83:R894:895 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:119:R1128:1129 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:120:R1134:1135 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:197:R1780:1781 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:273:R2480:2481 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:282:R2546:2547 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:305:R2695:2696 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:315:R2763:2764 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:330:R2839:2839 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:331:R2841:2841 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:347:R3008:3009 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:356:R3008:3009 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:358:R3112:3112 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:359:R3114:3114 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:360:R3112:3112 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:361:R3114:3114 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:362:R3112:3112 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:363:R3114:3114 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:366:R3161:3161 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:367:R3163:3163 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:370:R3161:3161 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:371:R3163:3163 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:392:R3347:3347 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:393:R3351:3351 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:410:R3527:3528 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:419:R3527:3528 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:421:R3631:3631 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:422:R3635:3635 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:423:R3631:3631 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:424:R3635:3635 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:425:R3631:3631 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:426:R3635:3635 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:429:R3684:3684 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:430:R3688:3688 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:433:R3684:3684 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:434:R3688:3688 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:625:R5741:5742 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:655:R5984:5985 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:669:R6037:6037 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:670:R6039:6039 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:691:R6344:6345 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:692:R6349:6350 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:965:R8226:8227 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:970:R8243:8244 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:1140:R9478:9479 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:1225:R10538:10539 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:1242:R10650:10651 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:1246:R10657:10658 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:1247:R10661:10662 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2037:R16407:16407 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:2038:R16409:16409 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:2042:R16419:16419 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:2043:R16421:16421 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:2068:R16748:16749 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2080:R17009:17010 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2085:R17026:17027 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2216:R18219:18220 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2346:R19282:19283 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2448:R20169:20170 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2454:R20190:20191 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2474:R20344:20345 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2606:R21430:21430 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:2607:R21432:21432 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:2639:R21711:21711 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:2640:R21713:21713 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:2663:R21939:21940 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2683:R22177:22178 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:2778:R23155:23156 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:3080:R25637:25638 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:3428:R28698:28699 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:3434:R28726:28726 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:3435:R28730:28730 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:3526:R29327:29327 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:3527:R29334:29334 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:3533:R29368:29368 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:3534:R29370:29370 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:3538:R29327:29327 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:3539:R29334:29334 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:3545:R29368:29368 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:3546:R29370:29370 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4044:R33297:33297 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4045:R33299:33299 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4105:R33748:33749 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:4288:R35004:35004 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4289:R35006:35006 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4294:R35004:35004 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4295:R35006:35006 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4300:R35058:35058 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4301:R35061:35061 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4306:R35058:35058 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:4307:R35061:35061 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:5086:R42226:42226 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:5087:R42228:42228 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:5089:R42239:42240 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:5111:R42471:42471 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:5112:R42473:42473 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:5150:R42685:42686 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:5156:R42715:42715 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:5157:R42724:42724 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:5346:R44115:44116 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCList.glob:5360:R44272:44272 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCList.glob:5361:R44274:44274 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+grep: utils/theories/MCListable.vo: binary file matches
+grep: utils/theories/MCMSets.vo: binary file matches
+grep: utils/theories/MCPrelude.vo: binary file matches
+grep: utils/theories/MCOption.vo: binary file matches
+grep: utils/theories/monad_utils.vo: binary file matches
+grep: utils/theories/MCRelations.vo: binary file matches
+utils/theories/MCListable.glob:12:R195:207 Coq.Lists.List ListNotations <> mod
+utils/theories/MCListable.glob:350:R6469:6469 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCListable.glob:351:R6471:6471 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCListable.glob:354:R6483:6484 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCListable.glob:361:R6469:6469 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCListable.glob:362:R6471:6471 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+utils/theories/MCListable.glob:365:R6483:6484 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+grep: utils/theories/MCUtils.vo: binary file matches
+utils/theories/MCProd.v:9:Notation "p .1" := (fst p)
+utils/theories/MCProd.v:11:Notation "p .2" := (snd p)
+utils/theories/MCProd.v:15:Notation "x × y" := (prod x y ) (at level 80, right associativity).
+utils/theories/MCProd.v:21:Notation "p .p1" := (proj1 p) (at level 2, left associativity, format "p .p1").
+utils/theories/MCProd.v:22:Notation "p .p2" := (proj2 p) (at level 2, left associativity, format "p .p2").
+utils/theories/MCProd.v:86:Reserved Notation "[ × P1 & P2 ]" (at level 0).
+utils/theories/MCProd.v:87:Reserved Notation "[ × P1 , P2 & P3 ]" (at level 0, format
+utils/theories/MCProd.v:89:Reserved Notation "[ × P1 , P2 , P3 & P4 ]" (at level 0, format
+utils/theories/MCProd.v:91:Reserved Notation "[ × P1 , P2 , P3 , P4 & P5 ]" (at level 0, format
+utils/theories/MCProd.v:93:Reserved Notation "[ × P1 , P2 , P3 , P4 , P5 & P6 ]" (at level 0, format
+utils/theories/MCProd.v:95:Reserved Notation "[ × P1 , P2 , P3 , P4 , P5 , P6 & P7 ]" (at level 0, format
+utils/theories/MCProd.v:97:Reserved Notation "[ × P1 , P2 , P3 , P4 , P5 , P6 , P7 & P8 ]" (at level 0, format
+utils/theories/MCProd.v:99:Reserved Notation "[ × P1 , P2 , P3 , P4 , P5 , P6 , P7 , P8 & P9 ]" (at level 0, format
+utils/theories/MCProd.v:101:Reserved Notation "[ × P1 , P2 , P3 , P4 , P5 , P6 , P7 , P8 , P9 & P10 ]" (at level 0, format
+utils/theories/MCProd.v:115:Notation "[ × P1 & P2 ]" := (pair P1 P2) (only parsing) : type_scope.
+utils/theories/MCProd.v:116:Notation "[ × P1 , P2 & P3 ]" := (and3 P1 P2 P3) : type_scope.
+utils/theories/MCProd.v:117:Notation "[ × P1 , P2 , P3 & P4 ]" := (and4 P1 P2 P3 P4) : type_scope.
+utils/theories/MCProd.v:118:Notation "[ × P1 , P2 , P3 , P4 & P5 ]" := (and5 P1 P2 P3 P4 P5) : type_scope.
+utils/theories/MCProd.v:119:Notation "[ × P1 , P2 , P3 , P4 , P5 & P6 ]" := (and6 P1 P2 P3 P4 P5 P6) : type_scope.
+utils/theories/MCProd.v:120:Notation "[ × P1 , P2 , P3 , P4 , P5 , P6 & P7 ]" := (and7 P1 P2 P3 P4 P5 P6 P7) : type_scope.
+utils/theories/MCProd.v:121:Notation "[ × P1 , P2 , P3 , P4 , P5 , P6 , P7 & P8 ]" := (and8 P1 P2 P3 P4 P5 P6 P7 P8) : type_scope.
+utils/theories/MCProd.v:122:Notation "[ × P1 , P2 , P3 , P4 , P5 , P6 , P7 , P8 & P9 ]" := (and9 P1 P2 P3 P4 P5 P6 P7 P8 P9) : type_scope.
+utils/theories/MCProd.v:123:Notation "[ × P1 , P2 , P3 , P4 , P5 , P6 , P7 , P8 , P9 & P10 ]" := (and10 P1 P2 P3 P4 P5 P6 P7 P8 P9 P10) : type_scope.
+utils/theories/bytestring.v:24:String Notation Byte.byte byte_parse byte_print : byte_scope.
+utils/theories/bytestring.v:62:  Notation "x ++ y" := (append x y) : bs_scope.
+utils/theories/bytestring.v:188:Notation string := String.t.
+utils/theories/bytestring.v:192:String Notation String.t String.parse String.print : bs_scope.
+utils/theories/bytestring.v:194:Notation "x ++ y" := (String.append x y) : bs_scope.
+utils/theories/bytestring.v:406:Notation string_compare := StringOT.compare.
+utils/theories/bytestring.v:407:Notation string_compare_eq := StringOT.compare_eq.
+utils/theories/bytestring.v:408:Notation CompareSpec_string := StringOT.compare_spec.
+utils/theories/MCEquality.v:5:Notation "p # x" := (transport _ p x) (right associativity, at level 65).
+utils/theories/wGraph.v:525:  Notation "x ..s" := (e_source x) (at level 3, format "x '..s'").
+utils/theories/wGraph.v:526:  Notation "x ..t" := (e_target x) (at level 3, format "x '..t'").
+utils/theories/wGraph.v:527:  Notation "x ..w" := (e_weight x) (at level 3, format "x '..w'").
+grep: utils/theories/ByteCompareSpec.vo: binary file matches
+grep: utils/theories/MCProd.vo: binary file matches
+utils/theories/MCPred.glob:36:R547:551 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCPred.glob:38:R556:560 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCPred.glob:49:R713:717 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCPred.glob:51:R722:726 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCPred.glob:62:R882:886 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCPred.glob:64:R891:895 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+grep: utils/theories/MCTactics/Head.vo: binary file matches
+grep: utils/theories/MCTactics/SpecializeUnderBindersBy.vo: binary file matches
+grep: utils/theories/MCTactics/SpecializeBy.vo: binary file matches
+grep: utils/theories/MCTactics/FindHyp.vo: binary file matches
+utils/theories/MCTactics/SpecializeBy.v:25:Tactic Notation "specialize_by" tactic3(tac) := specialize_by tac.
+utils/theories/MCTactics/SpecializeUnderBindersBy.v:105:Tactic Notation "specialize_under_binders_by" tactic3(tac) := specialize_under_binders_by tac.
+utils/theories/MCTactics/SpecializeUnderBindersBy.v:106:Tactic Notation "specialize_dep_under_binders_by" tactic3(tac) := specialize_dep_under_binders_by tac.
+utils/theories/MCTactics/SpecializeUnderBindersBy.v:108:Tactic Notation "specialize_all_ways_under_binders_by" tactic3(tac) := specialize_all_ways_under_binders_by tac.
+utils/theories/MCTactics/SpecializeUnderBindersBy.v:109:Tactic Notation "specialize_all_ways_dep_under_binders_by" tactic3(tac) := specialize_all_ways_dep_under_binders_by tac.
+grep: utils/theories/MCTactics/SplitInContext.vo: binary file matches
+grep: utils/theories/MCTactics/Zeta1.vo: binary file matches
+utils/theories/MCTactics/InHypUnderBindersDo.v:102:Tactic Notation "in_hyp_under_binders_do" tactic3(tac) := in_hyp_under_binders_do tac.
+utils/theories/MCTactics/InHypUnderBindersDo.v:104:Tactic Notation "in_hyp_all_ways_under_binders_do" tactic3(tac) := in_hyp_all_ways_under_binders_do tac.
+grep: utils/theories/MCTactics/UniquePose.vo: binary file matches
+grep: utils/theories/MCTactics/DestructHead.vo: binary file matches
+grep: utils/theories/MCTactics/SpecializeAllWays.vo: binary file matches
+grep: utils/theories/MCTactics/DestructHyps.vo: binary file matches
+grep: utils/theories/MCTactics/GeneralizeOverHoles.vo: binary file matches
+grep: utils/theories/MCTactics/InHypUnderBindersDo.vo: binary file matches
+utils/theories/MCTactics/UniquePose.v:5:Tactic Notation "unique" "pose" "proof" constr(defn) :=
+utils/theories/MCTactics/UniquePose.v:12:Tactic Notation "unique" "pose" constr(defn) :=
+utils/theories/MCTactics/UniquePose.v:19:Tactic Notation "unique" "assert" constr(T) :=
+utils/theories/MCTactics/UniquePose.v:26:Tactic Notation "unique" "assert" constr(T) "by" tactic3(tac) :=
+utils/theories/monad_utils.v:6:Import ListNotations.
+utils/theories/monad_utils.v:22:Module MCMonadNotation.
+utils/theories/monad_utils.v:26:  Notation "c >>= f" := (@bind _ _ _ _ c f) (at level 50, left associativity) : monad_scope.
+utils/theories/monad_utils.v:27:  Notation "f =<< c" := (@bind _ _ _ _ c f) (at level 51, right associativity) : monad_scope.
+utils/theories/monad_utils.v:29:  Notation "'mlet' x <- c1 ;; c2" := (@bind _ _ _ _ c1 (fun x => c2))
+utils/theories/monad_utils.v:32:  Notation "'mlet' ' pat <- c1 ;; c2" := (@bind _ _ _ _ c1 (fun x => match x with pat => c2 end))
+utils/theories/monad_utils.v:35:  Notation "x <- c1 ;; c2" := (@bind _ _ _ _ c1 (fun x => c2))
+utils/theories/monad_utils.v:38:  Notation "' pat <- c1 ;; c2" := (@bind _ _ _ _ c1 (fun x => match x with pat => c2 end))
+utils/theories/monad_utils.v:41:  Notation "e1 ;; e2" := (_ <- e1%monad ;; e2%monad)%monad
+utils/theories/monad_utils.v:43:End MCMonadNotation.
+utils/theories/monad_utils.v:45:Import MCMonadNotation.
+grep: utils/theories/MCSquash.vo: binary file matches
+utils/theories/MCCompare.v:18:Local Notation " c ?? y " := (compare_cont c y) (at level 100).
+utils/theories/MCCompare.v:108:Notation bool_compare := BoolOT.compare.
+utils/theories/MCCompare.v:114:  Import List. Import ListNotations.
+utils/theories/ReflectEq.glob:7:R96:108 Coq.Lists.List ListNotations <> mod
+utils/theories/ReflectEq.glob:329:R3602:3603 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/ReflectEq.glob:330:R3606:3607 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCPrelude.v:17:Notation "'eta_compose'" := (fun g f x => g (f x)).
+utils/theories/MCPrelude.v:20:Notation "g ∘ f" := (eta_compose g f) (at level 40, left associativity).
+utils/theories/MCPrelude.v:22:Notation " ! " := (@False_rect _ _) : metacoq_scope.
+utils/theories/MCPrelude.v:25:Notation "'∑' x .. y , p" := (sigT (fun x => .. (sigT (fun y => p%type)) ..))
+utils/theories/MCPrelude.v:30:Notation "( x ; y )" := (@existT _ _ x y).
+utils/theories/MCPrelude.v:31:Notation "( x ; y ; z )" := (x ; ( y ; z)).
+utils/theories/MCPrelude.v:32:Notation "( x ; y ; z ; t )" := (x ; ( y ; (z ; t))).
+utils/theories/MCPrelude.v:33:Notation "( x ; y ; z ; t ; u )" := (x ; ( y ; (z ; (t ; u)))).
+utils/theories/MCPrelude.v:34:Notation "( x ; y ; z ; t ; u ; v )" := (x ; ( y ; (z ; (t ; (u ; v))))).
+utils/theories/MCPrelude.v:35:Notation "x .π1" := (@projT1 _ _ x) (at level 3, format "x '.π1'").
+utils/theories/MCPrelude.v:36:Notation "x .π2" := (@projT2 _ _ x) (at level 3, format "x '.π2'").
+utils/theories/MCPrelude.v:39:Notation "`=1`" := (pointwise_relation _ Logic.eq) (at level 80).
+utils/theories/MCPrelude.v:41:Notation "`=2`" := (pointwise_relation _ (pointwise_relation _ Logic.eq)) (at level 80).
+utils/theories/MCPrelude.v:78:Tactic Notation "len" "in" hyp(cl) := autorewrite with len in cl.
+utils/theories/MCPrelude.v:121:Tactic Notation "relativize" open_constr(c) :=
+utils/theories/All_Forall.v:5:Import ListNotations.
+utils/theories/All_Forall.v:94:Import EqNotations.
+utils/theories/utils.v:22:Notation "s1 ^ s2" := (bytestring.String.append s1 s2) : string_scope2.
+utils/theories/utils.v:29:Notation "A * B" := (prod A B) : type_scope2.
+utils/theories/MCCompare.glob:11:R145:149 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCCompare.glob:13:R153:157 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCCompare.glob:15:R161:165 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCCompare.glob:17:R174:178 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCCompare.glob:236:R2802:2806 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCCompare.glob:238:R2809:2813 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCCompare.glob:275:R3309:3321 Coq.Lists.List ListNotations <> mod
+utils/theories/MCCompare.glob:283:R3400:3401 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCCompare.glob:284:R3404:3405 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCCompare.glob:293:R3498:3499 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCCompare.glob:296:R3524:3525 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCCompare.glob:321:R3693:3694 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/MCCompare.glob:363:R4437:4441 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCCompare.glob:365:R4444:4448 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+grep: utils/theories/MC_ExtrOCamlInt63.vo: binary file matches
+utils/theories/monad_utils.glob:9:R170:182 Coq.Lists.List ListNotations <> mod
+utils/theories/monad_utils.glob:56:mod 548:562 <> MCMonadNotation
+utils/theories/monad_utils.glob:58:not 646:646 MCMonadNotation ::monad_scope:x_'>>='_x
+utils/theories/monad_utils.glob:60:not 739:739 MCMonadNotation ::monad_scope:x_'=<<'_x
+utils/theories/monad_utils.glob:63:not 834:834 MCMonadNotation ::monad_scope:'mlet'_x_'<-'_x_';;'_x
+utils/theories/monad_utils.glob:67:not 989:989 MCMonadNotation ::monad_scope:'mlet'_''''_x_'<-'_x_';;'_x
+utils/theories/monad_utils.glob:70:not 1175:1175 MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x
+utils/theories/monad_utils.glob:74:not 1344:1344 MCMonadNotation ::monad_scope:''''_x_'<-'_x_';;'_x
+utils/theories/monad_utils.glob:75:R1539:1543 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:76:R1552:1555 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:77:not 1522:1522 MCMonadNotation ::monad_scope:x_';;;'_x
+utils/theories/monad_utils.glob:78:R1656:1670 MetaCoq.Utils.monad_utils MCMonadNotation <> mod
+utils/theories/monad_utils.glob:79:R1681:1695 MetaCoq.Utils.monad_utils MCMonadNotation <> mod
+utils/theories/monad_utils.glob:159:R2350:2354 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:160:R2358:2377 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:163:R2381:2385 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:164:R2395:2414 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:197:R2670:2674 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:198:R2678:2699 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:201:R2702:2706 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:202:R2718:2739 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:222:R2899:2903 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:223:R2907:2929 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:249:R3105:3109 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:250:R3115:3137 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:270:R3299:3303 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:271:R3324:3349 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:299:R3535:3540 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:300:R3547:3570 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:304:R3573:3578 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:305:R3603:3626 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:358:R3995:3999 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:359:R4005:4014 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:362:R4018:4022 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:363:R4038:4047 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:416:R4378:4379 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/monad_utils.glob:420:R4412:4416 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:421:R4420:4437 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:424:R4439:4443 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:425:R4457:4474 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:467:R4688:4689 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/monad_utils.glob:468:R4692:4693 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/monad_utils.glob:473:R4737:4741 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:474:R4747:4774 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:477:R4776:4780 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:478:R4811:4838 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:508:R4987:4991 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:509:R4993:4996 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:512:R4998:5002 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:513:R5004:5007 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:630:R5770:5771 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/monad_utils.glob:635:R5813:5817 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:636:R5823:5844 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:640:R5846:5850 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:641:R5871:5892 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:689:R6175:6176 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/monad_utils.glob:695:R6239:6243 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:696:R6251:6272 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:700:R6274:6278 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:701:R6305:6326 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:750:R6748:6749 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/monad_utils.glob:755:R6791:6795 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:756:R6803:6824 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:759:R6826:6830 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:760:R6905:6926 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:765:R6877:6881 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:766:R6896:6898 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:864:R7565:7566 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+utils/theories/monad_utils.glob:870:R7634:7638 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:871:R7644:7653 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:874:R7655:7659 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+utils/theories/monad_utils.glob:875:R7677:7686 MetaCoq.Utils.monad_utils MCMonadNotation ::monad_scope:x_'<--'_x_';;'_x not
+grep: utils/theories/wGraph.vo: binary file matches
+utils/theories/MCRelations.v:20:Notation "'precompose'" := (fun R f x y => R (f x) (f y)) (only parsing).
+utils/theories/MCRelations.v:28:Notation Trel_conj R S :=
+utils/theories/MCRelations.v:31:Notation Trel_sig R S :=
+utils/theories/MCRelations.v:34:Notation on_Trel_eq R f g :=
+grep: utils/theories/canonicaltries/CanonicalTries.vo: binary file matches
+grep: utils/theories/canonicaltries/String2pos.vo: binary file matches
+grep: utils/theories/LibHypsNaming.vo: binary file matches
+grep: utils/theories/ReflectEq.vo: binary file matches
+grep: utils/theories/bytestring.vo: binary file matches
+utils/theories/wGraph.glob:804:R11217:11221 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:806:R11232:11236 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:808:R11247:11251 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:815:R11445:11449 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:817:R11460:11464 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:819:R11475:11479 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:1023:R13857:13861 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:1025:R13870:13874 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:2655:R33602:33606 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:9321:R114688:114692 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:9323:R114703:114707 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:9352:R115012:115016 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:9363:R115012:115016 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:9435:R115962:115966 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/wGraph.glob:9437:R115977:115981 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+grep: utils/theories/utils.vo: binary file matches
+utils/theories/MCMSets.glob:147:R1753:1757 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCMSets.glob:286:R2660:2664 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCMSets.glob:383:R3168:3172 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCOption.glob:286:R2679:2683 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCOption.glob:288:R2692:2696 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCOption.glob:558:R5310:5314 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCOption.glob:560:R5323:5327 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+utils/theories/MCOption.glob:571:R5506:5510 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+grep: utils/theories/MCReflect.vo: binary file matches
+
+Grep finished with 1513 matches found at Fri Jan 26 07:43:59, duration 3.84 s
