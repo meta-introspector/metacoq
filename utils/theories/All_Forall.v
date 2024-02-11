@@ -871,14 +871,14 @@ Qed.
 
 Lemma All_impl_All {A} {P Q} {l : list A} : All P l -> All (fun x => P x -> Q x) l -> All Q l.
 Proof.
-  Debug Off.induction 1; inversion 1; constructor; intuition auto.
+  induction 1; inversion 1; constructor; intuition auto.
   Debug On.
 Qed.
 
 Lemma Alli_impl_Alli {A} {P Q} (l : list A) {n} : Alli P n l -> Alli (fun n x => P n x -> Q n x) n l -> Alli Q n l.
-Proof. Debug Off.
+Proof. 
        induction 1; inversion 1; constructor; intuition auto.
-Debug On.Defined.
+Defined.
 
 Lemma All_impl {A} {P Q} {l : list A} : All P l -> (forall x, P x -> Q x) -> All Q l.
 Proof. induction 1; try constructor; intuition auto. Qed.
