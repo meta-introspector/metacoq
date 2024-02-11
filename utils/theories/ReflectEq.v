@@ -32,7 +32,9 @@ Qed.
 (** If one really wants a computational version. *)
 Remark reflectProp_reflect {P b} : reflectProp P b -> reflect P b.
 Proof.
-  now destruct b; intros H; constructor; depelim H.
+      Debug Off.
+      now destruct b; intros H; constructor; depelim H.
+      Debug On.
 Defined.
 
 Lemma reflect_reflectProp_1 {A} {P : A -> Prop} {b} : (forall x, reflect (P x) (b x)) -> (forall x, reflectProp (P x) (b x)).
@@ -66,12 +68,16 @@ Qed.
 
 Lemma eqb_refl {A} {R : ReflectEq A} (x : A) : x == x.
 Proof.
-  destruct (eqb_spec x x); auto.
+      Debug Off.
+      destruct (eqb_spec x x); auto.
+      Debug On.
 Qed.
 
 Lemma neqb {A} {R : ReflectEq A} (x y : A) : ~~ (x == y) <-> x <> y.
 Proof.
+  Debug Off.
   destruct (eqb_spec x y); auto; subst; intuition auto.
+  Debug On.
 Qed.
 
 #[global, program] Instance ReflectEq_EqDec {A} (R : ReflectEq A) : EqDec A := {
@@ -123,7 +129,9 @@ Proof.
   destruct x, y.
   all: cbn.
   all: try solve [ constructor ; easy ].
-  destruct (eqb_spec a a0) ; nodec.
+Debug Off.
+destruct (eqb_spec a a0) ; nodec.
+Debug On.
   constructor. f_equal. assumption.
 Qed.
 
@@ -147,8 +155,10 @@ Proof.
   - cbn. constructor. reflexivity.
   - cbn. constructor. discriminate.
   - cbn. constructor. discriminate.
-  - cbn. destruct (eqb_spec a a0) ; nodec.
+    Debug Off.
+  - cbn. destruct (eqb_spec a a0) ; nodec.    
     destruct (IHx y) ; nodec.
+    Debug On.
     subst. constructor. reflexivity.
 Qed.
 
@@ -181,7 +191,9 @@ Definition eq_sig_true {A f} `{ReflectEq A} (x y : { z : A | f z = true }) : boo
 }.
 Next Obligation.
   intros A f RA. intros [x hx] [y hy]. unfold eq_sig_true; cbn.
+  Debug Off.
   destruct (eqb_spec x y) ; nodec. subst.
+  Debug On.
   constructor. pose proof (uip hx hy). subst. reflexivity.
 Defined.
 
@@ -198,8 +210,10 @@ Definition eq_prod {A B} (eqA : A -> A -> bool) (eqB : B -> B -> bool) x y :=
 Next Obligation.
   intros A B RA RB [x y] [u v].
   unfold eq_prod.
+  Debug Off.
   destruct (eqb_spec x u) ; nodec.
   destruct (eqb_spec y v) ; nodec.
+  Debug On.
   subst. constructor. reflexivity.
 Defined.
 
