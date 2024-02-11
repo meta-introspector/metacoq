@@ -1,8 +1,8 @@
-
 From Ltac2 Require Option.
-Set Ltac Debug.
-Set Ltac2 Backtrace.
+Set Ltac Debug. 
+Set Ltac2 Backtrace. 
 Set Ltac Batch Debug.
+
 From Coq.Structures Require Import Orders.
 From Coq.MSets Require Import MSetInterface MSetList MSetAVL MSetFacts MSetProperties MSetDecide.
 From MetaCoq.Utils Require Import MCReflect.
@@ -91,6 +91,7 @@ Module Export MSets.
     Lemma above_spec x s : above x s = true <-> Above x s.
     Proof.
       cbv [Above above].
+      Debug Off.
       rewrite for_all_spec
         by (intros ?? H; repeat (let H' := fresh in destruct ME.lt_dec as [H'|H']; rewrite ?H in H'); try reflexivity; tauto).
       cbv [For_all].
@@ -125,6 +126,7 @@ Module MSetAVL.
 
       Fixpoint lt_tree_dec x t : { M.Raw.lt_tree x t } + {~ M.Raw.lt_tree x t}.
       Proof.
+        Debug Off.
         refine match t with
                | M.Raw.Leaf => left _
                | M.Raw.Node z l n r
@@ -143,9 +145,11 @@ Module MSetAVL.
                       end
                     | intro f; apply pf; hnf in *; intros; apply f; constructor; (assumption + reflexivity)
                     | intro f; inversion pfc; eapply M.Raw.MX.lt_irrefl; (idtac + etransitivity); (eassumption + (eapply f; constructor; (idtac + symmetry); (eassumption + reflexivity))) ].
+        Debug On.
       Defined.
       Fixpoint gt_tree_dec x t : { M.Raw.gt_tree x t } + {~ M.Raw.gt_tree x t}.
       Proof.
+        Debug Off.
         refine match t with
                | M.Raw.Leaf => left _
                | M.Raw.Node z l n r
@@ -164,6 +168,7 @@ Module MSetAVL.
                       end
                     | intro f; apply pf; hnf in *; intros; apply f; constructor; (assumption + reflexivity)
                     | intro f; inversion pfc; eapply M.Raw.MX.lt_irrefl; (idtac + etransitivity); (eassumption + (eapply f; constructor; (idtac + symmetry); (eassumption + reflexivity))) ].
+        Debug Off.
       Defined.
       Fixpoint bst_dec t : { M.Raw.bst t } + {~ M.Raw.bst t}.
       Proof.
@@ -192,17 +197,21 @@ Module MSetAVL.
       Lemma lt_tree_irrel x y (p q : M.Raw.lt_tree x y) : p = q.
       Proof.
         hnf in p, q.
+        Debug Off.
         apply FunctionalExtensionality.functional_extensionality_dep; intro.
         apply FunctionalExtensionality.functional_extensionality_dep; intro.
         apply TIrrel.lt_irrel.
+        Debug On.
       Qed.
 
       Lemma gt_tree_irrel x y (p q : M.Raw.gt_tree x y) : p = q.
       Proof.
         hnf in p, q.
+        Debug Off.
         apply FunctionalExtensionality.functional_extensionality_dep; intro.
         apply FunctionalExtensionality.functional_extensionality_dep; intro.
         apply TIrrel.lt_irrel.
+        Debug On.
       Qed.
       Definition invert_bst {t} (x : M.Raw.bst t)
         := match x as x in M.Raw.bst t return match t return M.Raw.bst t -> Prop with
@@ -217,14 +226,18 @@ Module MSetAVL.
       Lemma bst_irrel t (x y : M.Raw.bst t) : x = y.
       Proof.
         induction t.
+        Debug Off.
         { pose proof (invert_bst x) as Hx.
           pose proof (invert_bst y) as Hy.
           cbn in *; subst; reflexivity. }
+
         { pose proof (invert_bst x) as Hx.
           pose proof (invert_bst y) as Hy.
           cbn in *; subst.
           repeat match goal with H : sig _ |- _ => destruct H end.
+
           subst; f_equal; eauto using lt_tree_irrel, gt_tree_irrel. }
+                            Debug On.
       Qed.
     End Raw.
   End LtIrrel.
@@ -236,7 +249,9 @@ Module MSetAVL.
       Import D.Raw.
       Definition tree_dec (x y : M.Raw.tree) : {x = y} + {x <> y}.
       Proof.
+        Debug Off.
         decide equality; try apply BinInt.Z.eq_dec.
+
         let H := fresh in
         lazymatch goal with
         | [ |- {?x = ?y :> T.t} + {_} ]
@@ -244,6 +259,7 @@ Module MSetAVL.
         end;
         [ left; apply L.eq_leibniz in H; assumption
         | right; clear -H; abstract (intro; subst; apply H; reflexivity) ].
+        Debug On.
       Defined.
       #[global] Instance tree_EqDec : EqDec M.Raw.tree := { eq_dec := tree_dec }.
       #[global] Instance t_EqDec : EqDec M.Raw.t := _.
@@ -251,6 +267,7 @@ Module MSetAVL.
     Import M.
     Definition t_dec (x y : M.t) : {x = y} + {x <> y}.
     Proof.
+      Debug Off.
       destruct (Raw.tree_dec x.(this) y.(this)); [ left | right ].
       { destruct x, y; cbn in *; subst; apply f_equal.
         apply Raw.bst_irrel. }
