@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 From Coq Require Import Byte.
 
 Definition is_byte_x00 (b : byte) := match b with | x00 => true | _ => false end.

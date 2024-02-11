@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 (** * Inlining pass on the Template Coq representation *)
 
 (** Essentially, just an adaptaion of the inlining pass on the erased representation.

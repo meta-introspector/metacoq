@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 (* Some tests for the notations of quoting *)
 From MetaCoq.Utils Require Import bytestring.
 From MetaCoq.Template Require Loader.

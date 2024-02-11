@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 (** * Definition of programs in template-coq, well-typed terms and provided transformations **)
 From Coq Require Import ssreflect.
 From MetaCoq.Utils Require Import utils.

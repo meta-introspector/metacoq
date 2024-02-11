@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 From Coq.Structures Require Import Equalities OrdersAlt.
 From Coq.Structures Require OrderedType.
 From MetaCoq.Quotation.ToTemplate Require Import Init.

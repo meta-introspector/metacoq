@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 
 Definition transport {A} (P : A -> Type) {x y : A} (e : x = y) : P x -> P y
   := fun u => eq_rect x P u y e.

@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 Ltac find_hyp_eq a b := match goal with _ => constr_eq_nounivs a b end.
 (* Work around https://github.com/coq/coq/issues/15554 *)
 Ltac find_hyp T :=

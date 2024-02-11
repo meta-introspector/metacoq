@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 Require Import Coq.Lists.List.
 Require Import Coq.Lists.ListDec.
 From MetaCoq.Utils Require Import ReflectEq.

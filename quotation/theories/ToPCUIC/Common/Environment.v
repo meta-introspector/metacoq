@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 From Coq Require Import Structures.Equalities Lists.List Lists.ListDec.
 From MetaCoq.Utils Require Import MCProd All_Forall ReflectEq MCRelations MCReflect.
 From MetaCoq.Common Require Import Environment Universes.

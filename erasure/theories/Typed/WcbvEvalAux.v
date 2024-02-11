@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 From Equations Require Import Equations.
 From MetaCoq.Erasure.Typed Require Import ClosedAux.
 From MetaCoq.Utils Require Import MCPrelude.

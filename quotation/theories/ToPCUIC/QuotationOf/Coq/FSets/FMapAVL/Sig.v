@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 From Coq.FSets Require Import FMapAVL.
 From Coq.Structures Require Import Equalities OrdersAlt.
 From MetaCoq.Utils Require Import MCFSets.

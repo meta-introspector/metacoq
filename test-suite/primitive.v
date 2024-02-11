@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 From Coq Require Import String.
 From MetaCoq.Template Require Import monad_utils All.
 From Coq.Numbers.Cyclic Require Import PrimInt63 Sint63.

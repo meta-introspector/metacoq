@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 (** * Term and proof generation for the certifying transforms *)
 From Coq Require Import List.
 From Coq Require Import Ascii.

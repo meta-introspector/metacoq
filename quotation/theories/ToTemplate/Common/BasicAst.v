@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 From MetaCoq.Quotation.ToTemplate Require Import Init.
 From MetaCoq.Quotation.ToTemplate Require Import (hints) Coq.Init Coq.Floats Coq.Numbers.
 From MetaCoq.Quotation.ToTemplate.Utils Require Import (hints) utils.

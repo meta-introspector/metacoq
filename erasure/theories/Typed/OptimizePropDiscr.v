@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 (** Pass that removes discrimination (matches and projections) on things in Prop.
     This uses MetaCoq's optimization but adapted to run on our environments. *)
 

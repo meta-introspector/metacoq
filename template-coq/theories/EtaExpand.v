@@ -1,3 +1,8 @@
+From Ltac2 Require Import Ltac2.
+From Ltac2 Require Option.
+Set Ltac Debug.
+Set Ltac2 Backtrace.
+Set Ltac Batch Debug.
 (** * Eta-expansion and proof generation **)
 
 (** We perform eta-expansion of template-coq terms and generate proofs that
