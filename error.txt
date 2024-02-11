@@ -1,0 +1,6 @@
+File "./theories/ReflectEq.v", line 74, characters 2-55:
+Error:
+Backtrace:
+
+Anomaly "print function not found for a value interpreted as tauto_flags."
+Please report at http://coq.inria.fr/bugs/.

@@ -13,7 +13,10 @@ Proof.
   intros.
   destruct (Nat.leb_spec0 x y).
   now constructor.
-  constructor. now lia.
+  constructor.
+  Set Debug Off.
+  now lia.
+  Set Debug On.
 Qed.
 
 Lemma nat_rev_ind (max : nat) :

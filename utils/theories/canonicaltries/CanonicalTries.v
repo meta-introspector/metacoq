@@ -1,8 +1,9 @@
-From Ltac2 Require Import Ltac2.
-From Ltac2 Require Option.
+(* From Ltac2 Require Import Ltac2. *)
+ From Ltac2 Require Option. 
 Set Ltac Debug.
-Set Ltac2 Backtrace.
-Set Ltac Batch Debug.
+ Set Ltac2 Backtrace. 
+ Set Ltac Backtrace. 
+ Set Ltac Batch Debug. 
 (** * The extensional binary tries based on a canonical representation *)
 
 (* Authors: Andrew W. Appel, Princeton University,
@@ -208,7 +209,11 @@ Module PTree.
 
    Lemma gso0: forall {A} p q (x: A), p<>q -> get' p (set0 q x) = None.
    Proof.
-    induction p; destruct q; simpl; intros; auto; try apply IHp; congruence.
+
+     induction p; destruct q; simpl; intros; auto;
+       try apply IHp;
+       congruence.
+     Set Debug On.
    Qed.
 
    Theorem gss:
